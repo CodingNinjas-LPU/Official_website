@@ -13,7 +13,10 @@
     <title>Document</title>
 </head>
 
-<body>
+<body onload="loadPage()">
+    <div id="techsahead-loader">
+        <div id="page-loader"> </div>
+    </div>
     <div class="parent-color" style="text-align: center;">
         <div id="nav-placeholder">
         </div>
@@ -37,6 +40,12 @@
     <!-- <div id="footer-placeholder">
     </div> -->
 </body>
+<script>
+    const preLoader = document.getElementById('techsahead-loader');
+    function loadPage() {
+        preLoader.style.display = 'none';
+    }
+</script>
 <script>
     $(document).ready(function () {
         $('.container ul.toggle').click(function () {

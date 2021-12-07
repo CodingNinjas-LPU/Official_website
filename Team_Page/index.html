@@ -11,10 +11,13 @@
     <link rel="stylesheet" href="/Footer/footer.css">
     <link rel="stylesheet" href="../nav.css">
     <link rel="stylesheet" href=" https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <link rel="stylesheet" href="/Loading/loading.css">
 </head>
-<body>
-      
+<body onload="loadPage()">
+      <div id="techsahead-loader">
+        <div id="page-loader"> </div>
+      </div>
+
   <section class="team team-executive pb-3">
     <div id="nav-placeholder">
     </div>
@@ -34,9 +37,9 @@
                 <h4>Gunjan Paneri</h4>
                 <p class="text-muted">Founder</p>
                 <ul class="list-inline">
-                  <li class="list-inline-item"><a href="https://www.linkedin.com/in/gunjanpaneri871/" class="text-decoration-none d-block px-1"><i class="icon-social-linkedin"></i></a></li>
-                  <li class="list-inline-item"><a href="mailto: " class="text-decoration-none d-block px-1"><i class="icon-social-google"></i></a></li>
-                  <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="icon-social-github"></i></a></li>
+                  <li class="list-inline-item"><a target="_blank" href="https://www.linkedin.com/in/gunjanpaneri871/" class="text-decoration-none d-block px-1"><i class="icon-social-linkedin"></i></a></li>
+                  <li class="list-inline-item"><a target="_blank" href="mailto:panerigunjan871@gmail.com" class="text-decoration-none d-block px-1"><i class="icon-social-google"></i></a></li>
+                  <li class="list-inline-item"><a target="_blank" href="https://github.com/iamgunjan" class="text-decoration-none d-block px-1"><i class="icon-social-github"></i></a></li>
                 </ul>
               </div>
             </div>
@@ -50,9 +53,9 @@
                 <h4>Nitish Mahajan</h4>
                 <p class="text-muted">Community Head</p>
                 <ul class="list-inline">
-                  <li class="list-inline-item"><a href="https://www.linkedin.com/in/nitish-mahajan-7b48121b0" class="text-decoration-none d-block px-1"><i class="icon-social-linkedin"></i></a></li>
-                  <li class="list-inline-item"><a href="mailto:nmahajan2861@gmail.com " class="text-decoration-none d-block px-1"><i class="icon-social-google"></i></a></li>
-                  <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="icon-social-github"></i></a></li>
+                  <li class="list-inline-item"><a target="_blank" href="https://www.linkedin.com/in/nitish-mahajan-7b48121b0" class="text-decoration-none d-block px-1"><i class="icon-social-linkedin"></i></a></li>
+                  <li class="list-inline-item"><a target="_blank" href="mailto:nmahajan2861@gmail.com" class="text-decoration-none d-block px-1"><i class="icon-social-google"></i></a></li>
+                  <li class="list-inline-item"><a target="_blank" href="#" class="text-decoration-none d-block px-1"><i class="icon-social-github"></i></a></li>
                 </ul>
               </div>
             </div>
@@ -79,9 +82,9 @@
               <h4>Imran Khan</h4>
               <p class="text-muted">Competitive programmer</p>
               <ul class="list-inline">
-                <li class="list-inline-item"><a href="https://www.linkedin.com/in/imran-khan-991324188/" class="text-decoration-none d-block px-1"><i class="icon-social-linkedin"></i></a></li>
-                <li class="list-inline-item"><a href="mailto:imran.techwiz@gmail.com " class="text-decoration-none d-block px-1"><i class="icon-social-google"></i></a></li>
-                <li class="list-inline-item"><a href="https://github.com/imrantechwiz" class="text-decoration-none d-block px-1"><i class="icon-social-github"></i></a></li>
+                <li class="list-inline-item"><a target="_blank" href="https://www.linkedin.com/in/imran-khan-991324188/" class="text-decoration-none d-block px-1"><i class="icon-social-linkedin"></i></a></li>
+                <li class="list-inline-item"><a target="_blank" href="mailto:imran.techwiz@gmail.com " class="text-decoration-none d-block px-1"><i class="icon-social-google"></i></a></li>
+                <li class="list-inline-item"><a target="_blank" href="https://github.com/imrantechwiz" class="text-decoration-none d-block px-1"><i class="icon-social-github"></i></a></li>
               </ul>
             </div>
           </div>
@@ -95,9 +98,9 @@
               <h4>Dhairya Khanna</h4>
               <p class="text-muted">MERN Developer</p>
               <ul class="list-inline">
-                <li class="list-inline-item"><a href="https://www.linkedin.com/in/dhairya-khanna" class="text-decoration-none d-block px-1"><i class="icon-social-linkedin"></i></a></li>
-                <li class="list-inline-item"><a href="mailto:dk9582671597@gmail.com" class="text-decoration-none d-block px-1"><i class="icon-social-google"></i></a></li>
-                <li class="list-inline-item"><a href="https://github.com/Dhairya3124" class="text-decoration-none d-block px-1"><i class="icon-social-github"></i></a></li>
+                <li class="list-inline-item"><a target="_blank" href="https://www.linkedin.com/in/dhairya-khanna" class="text-decoration-none d-block px-1"><i class="icon-social-linkedin"></i></a></li>
+                <li class="list-inline-item"><a target="_blank" href="mailto:dk9582671597@gmail.com" class="text-decoration-none d-block px-1"><i class="icon-social-google"></i></a></li>
+                <li class="list-inline-item"><a target="_blank" href="https://github.com/Dhairya3124" class="text-decoration-none d-block px-1"><i class="icon-social-github"></i></a></li>
               </ul>
             </div>
           </div>
@@ -108,33 +111,16 @@
                 <img src="/images/adarsh.jpg" class="img-fluid  img-thumbnail rounded-circle" alt="image1">
             </div>
                 <div class="content mt-2">
-              <h4>Adarsh</h4>
+              <h4>Adarsh Gupta</h4>
               <p class="text-muted">Flutter Developer</p>
               <ul class="list-inline">
-                <li class="list-inline-item"><a href="https://www.linkedin.com/in/adarsh-gupta-1601" class="text-decoration-none d-block px-1"><i class="icon-social-linkedin"></i></a></li>
-                <li class="list-inline-item"><a href="mailto:alphadead16@gmail.com " class="text-decoration-none d-block px-1"><i class="icon-social-google"></i></a></li>
-                <li class="list-inline-item"><a href="https://github.com/alphadead" class="text-decoration-none d-block px-1"><i class="icon-social-github"></i></a></li>
+                <li class="list-inline-item"><a target="_blank" href="https://www.linkedin.com/in/adarsh-gupta-1601" class="text-decoration-none d-block px-1"><i class="icon-social-linkedin"></i></a></li>
+                <li class="list-inline-item"><a target="_blank" href="mailto:alphadead16@gmail.com " class="text-decoration-none d-block px-1"><i class="icon-social-google"></i></a></li>
+                <li class="list-inline-item"><a target="_blank" href="https://github.com/alphadead" class="text-decoration-none d-block px-1"><i class="icon-social-github"></i></a></li>
               </ul>
             </div>
           </div>
-        </div>
-        <!-- <div class="col-md-6 col-lg-2 ">
-          <div class="img-block mb-2">
-            <div class="crop">
-                <img src="/images/Aditya Narayan Sharma.jpg" class="img-fluid  img-thumbnail rounded-circle" alt="image1">
-            </div>
-                <div class="content mt-2">
-              <h4>Aditya Narayan</h4>
-              <p class="text-muted">Tech Specialist</p>
-              <ul class="list-inline">
-                <li class="list-inline-item"><a href="adinarayanofficial@gmail.com" class="text-decoration-none d-block px-1"><i class="icon-social-linkedin"></i></a></li>
-                <li class="list-inline-item"><a href="mailto:adinarayanofficial@gmail.com" class="text-decoration-none d-block px-1"><i class="icon-social-google"></i></a></li>
-                <li class="list-inline-item"><a href="https://github.com/Adinarayanreloaded" class="text-decoration-none d-block px-1"><i class="icon-social-github"></i></a></li>
-              </ul>
-            </div>
-          </div>
-        </div> -->
-        
+        </div>        
       </div>
     </div>
   </section>
@@ -150,22 +136,6 @@
       <p class="text-muted">Meet and Greet our Team Members</p>
     </div>
     <div class="row center">
-      <!-- <div class="col-md-6 col-lg-2 ">
-        <div class="img-block mb-2">
-          <div class="crop">
-            <img src="./images/Maria Paul T.jpg" class=" img-responsive  img-thumbnail rounded-circle" alt="image1">
-          </div>
-            <div class="content mt-2">
-            <h4>Maria Paul</h4>
-            <p class="text-muted">Content Writer</p>
-            <ul class="list-inline">
-            <li class="list-inline-item"><a href="https://www.linkedin.com/in/maria-paul-t-a453191b6" class="text-decoration-none d-block px-1"><i class="icon-social-linkedin"></i></a></li>
-            <li class="list-inline-item"><a href="mailto:mariapault@cet.ac.in " class="text-decoration-none d-block px-1"><i class="icon-social-google"></i></a></li>
-            <li class="list-inline-item"><a href="https://github.com/intagliated" class="text-decoration-none d-block px-1"><i class="icon-social-github"></i></a></li>
-          </ul>
-          </div>
-        </div>
-      </div> -->
       <div class="col-md-6 col-lg-2 ">
         <div class="img-block mb-2">
           <div class="crop">
@@ -175,9 +145,9 @@
             <h4>Lakshit Pant</h4>
             <p class="text-muted">Content Writer</p>
             <ul class="list-inline">
-            <li class="list-inline-item"><a href="https://www.linkedin.com/in/lakshit-pant-103519191/" class="text-decoration-none d-block px-1"><i class="icon-social-linkedin"></i></a></li>
-            <li class="list-inline-item"><a href="mailto: lakshitlucky1234@gmail.com" class="text-decoration-none d-block px-1"><i class="icon-social-google"></i></a></li>
-            <li class="list-inline-item"><a href="https://github.com/LakshitPant09" class="text-decoration-none d-block px-1"><i class="icon-social-github"></i></a></li>
+            <li class="list-inline-item"><a target="_blank" href="https://www.linkedin.com/in/lakshit-pant-103519191/" class="text-decoration-none d-block px-1"><i class="icon-social-linkedin"></i></a></li>
+            <li class="list-inline-item"><a target="_blank" href="mailto: lakshitlucky1234@gmail.com" class="text-decoration-none d-block px-1"><i class="icon-social-google"></i></a></li>
+            <li class="list-inline-item"><a target="_blank" href="https://github.com/LakshitPant09" class="text-decoration-none d-block px-1"><i class="icon-social-github"></i></a></li>
           </ul>
           </div>
         </div>
@@ -192,9 +162,9 @@
             <h4>Saksham Sabharwal</h4>
             <p class="text-muted">Video Editor</p>
             <ul class="list-inline">
-            <li class="list-inline-item"><a href="https://www.linkedin.com/in/saksham47/" class="text-decoration-none d-block px-1"><i class="icon-social-linkedin"></i></a></li>
-            <li class="list-inline-item"><a href="mailto: sakshamsabbarwal2002@gmail.com" class="text-decoration-none d-block px-1"><i class="icon-social-google"></i></a></li>
-            <li class="list-inline-item"><a href="https://github.com/saksham4717" class="text-decoration-none d-block px-1"><i class="icon-social-github"></i></a></li>
+            <li class="list-inline-item"><a target="_blank" href="https://www.linkedin.com/in/saksham47/" class="text-decoration-none d-block px-1"><i class="icon-social-linkedin"></i></a></li>
+            <li class="list-inline-item"><a target="_blank" href="mailto: sakshamsabbarwal2002@gmail.com" class="text-decoration-none d-block px-1"><i class="icon-social-google"></i></a></li>
+            <li class="list-inline-item"><a target="_blank" href="https://github.com/saksham4717" class="text-decoration-none d-block px-1"><i class="icon-social-github"></i></a></li>
           </ul>
           </div>
         </div>
@@ -210,9 +180,9 @@
             <h4>Komal Gupta</h4>
             <p class="text-muted">Content Creator</p>
             <ul class="list-inline">
-            <li class="list-inline-item"><a href="https://www.linkedin.com/in/komal-gupta-1795b4181" class="text-decoration-none d-block px-1"><i class="icon-social-linkedin"></i></a></li>
-            <li class="list-inline-item"><a href="mailto:komalgupta991000@gmail.com " class="text-decoration-none d-block px-1"><i class="icon-social-google"></i></a></li>
-            <li class="list-inline-item"><a href="https://github.com/Komal-99" class="text-decoration-none d-block px-1"><i class="icon-social-github"></i></a></li>
+            <li class="list-inline-item"><a target="_blank" href="https://www.linkedin.com/in/komal-gupta-1795b4181" class="text-decoration-none d-block px-1"><i class="icon-social-linkedin"></i></a></li>
+            <li class="list-inline-item"><a target="_blank" href="mailto:komalgupta991000@gmail.com " class="text-decoration-none d-block px-1"><i class="icon-social-google"></i></a></li>
+            <li class="list-inline-item"><a target="_blank" href="https://github.com/Komal-99" class="text-decoration-none d-block px-1"><i class="icon-social-github"></i></a></li>
           </ul>
           </div>
         </div>
@@ -226,9 +196,9 @@
             <h4>Aayush Mahapatra</h4>
             <p class="text-muted">Video Editor</p>
             <ul class="list-inline">
-            <li class="list-inline-item"><a href="http://linkedin.com/in/aayush-mahapatra" class="text-decoration-none d-block px-1"><i class="icon-social-linkedin"></i></a></li>
-            <li class="list-inline-item"><a href="mailto:mahapatraaayush@gmail.com " class="text-decoration-none d-block px-1"><i class="icon-social-google"></i></a></li>
-            <li class="list-inline-item"><a href="" class="text-decoration-none d-block px-1"><i class="icon-social-github"></i></a></li>
+            <li class="list-inline-item"><a target="_blank" href="http://linkedin.com/in/aayush-mahapatra" class="text-decoration-none d-block px-1"><i class="icon-social-linkedin"></i></a></li>
+            <li class="list-inline-item"><a target="_blank" href="mailto:mahapatraaayush@gmail.com " class="text-decoration-none d-block px-1"><i class="icon-social-google"></i></a></li>
+            <li class="list-inline-item"><a target="_blank" href="#" class="text-decoration-none d-block px-1"><i class="icon-social-github"></i></a></li>
           </ul>
           </div>
         </div>
@@ -255,9 +225,9 @@
             <h4>Priya chandak</h4>
             <p class="text-muted">Event Manager</p>
             <ul class="list-inline">
-            <li class="list-inline-item"><a href="https://www.linkedin.com/in/priya-chandak-ba0a6b178" class="text-decoration-none d-block px-1"><i class="icon-social-linkedin"></i></a></li>
-            <li class="list-inline-item"><a href="mailto: priya02chandak24@gmail.com" class="text-decoration-none d-block px-1"><i class="icon-social-google"></i></a></li>
-            <li class="list-inline-item"><a href="https://github.com/PriyaChandak24" class="text-decoration-none d-block px-1"><i class="icon-social-github"></i></a></li>
+            <li class="list-inline-item"><a target="_blank" href="https://www.linkedin.com/in/priya-chandak-ba0a6b178" class="text-decoration-none d-block px-1"><i class="icon-social-linkedin"></i></a></li>
+            <li class="list-inline-item"><a target="_blank" href="mailto: priya02chandak24@gmail.com" class="text-decoration-none d-block px-1"><i class="icon-social-google"></i></a></li>
+            <li class="list-inline-item"><a target="_blank" href="https://github.com/PriyaChandak24" class="text-decoration-none d-block px-1"><i class="icon-social-github"></i></a></li>
           </ul>
           </div>
         </div>
@@ -271,9 +241,9 @@
             <h4>Sahitya Roy</h4>
             <p class="text-muted">Event Manager</p>
             <ul class="list-inline">
-            <li class="list-inline-item"><a href="https://www.linkedin.com/in/sahitya-roy" class="text-decoration-none d-block px-1"><i class="icon-social-linkedin"></i></a></li>
-            <li class="list-inline-item"><a href="mailto:sahitya.roy@uem.edu.in" class="text-decoration-none d-block px-1"><i class="icon-social-google"></i></a></li>
-            <li class="list-inline-item"><a href="https://github.com/SahityaRoy" class="text-decoration-none d-block px-1"><i class="icon-social-github"></i></a></li>
+            <li class="list-inline-item"><a target="_blank" href="https://www.linkedin.com/in/sahitya-roy" class="text-decoration-none d-block px-1"><i class="icon-social-linkedin"></i></a></li>
+            <li class="list-inline-item"><a target="_blank" href="mailto:sahitya.roy@uem.edu.in" class="text-decoration-none d-block px-1"><i class="icon-social-google"></i></a></li>
+            <li class="list-inline-item"><a target="_blank" href="https://github.com/SahityaRoy" class="text-decoration-none d-block px-1"><i class="icon-social-github"></i></a></li>
           </ul>
           </div>
         </div>
@@ -287,9 +257,9 @@
             <h4>Sonanshi Goel</h4>
             <p class="text-muted">Program Manager</p>
             <ul class="list-inline">
-            <li class="list-inline-item"><a href="https://www.linkedin.com/in/sonanshi-goel-9b550a1bb" class="text-decoration-none d-block px-1"><i class="icon-social-linkedin"></i></a></li>
-            <li class="list-inline-item"><a href="mailto:sonanshig02@gmail.com " class="text-decoration-none d-block px-1"><i class="icon-social-google"></i></a></li>
-            <li class="list-inline-item"><a href="https://github.com/sonanshi-0209" class="text-decoration-none d-block px-1"><i class="icon-social-github"></i></a></li>
+            <li class="list-inline-item"><a target="_blank" href="https://www.linkedin.com/in/sonanshi-goel-9b550a1bb" class="text-decoration-none d-block px-1"><i class="icon-social-linkedin"></i></a></li>
+            <li class="list-inline-item"><a target="_blank" href="mailto:sonanshig02@gmail.com " class="text-decoration-none d-block px-1"><i class="icon-social-google"></i></a></li>
+            <li class="list-inline-item"><a target="_blank" href="https://github.com/sonanshi-0209" class="text-decoration-none d-block px-1"><i class="icon-social-github"></i></a></li>
           </ul>
           </div>
         </div>
@@ -300,12 +270,12 @@
             <img src="/images/Shriya Saxena.jpg" class=" img-responsive  img-thumbnail rounded-circle" alt="image1">
           </div>
             <div class="content mt-2">
-            <h4>Shriya</h4>
+            <h4>Shriya Saxena</h4>
             <p class="text-muted">Event Evangelist </p>
             <ul class="list-inline">
-            <li class="list-inline-item"><a href="https://www.linkedin.com/in/shriya-saxena-287204205" class="text-decoration-none d-block px-1"><i class="icon-social-linkedin"></i></a></li>
-            <li class="list-inline-item"><a href="mailto:shriyasaxena0202@gmail.com " class="text-decoration-none d-block px-1"><i class="icon-social-google"></i></a></li>
-            <li class="list-inline-item"><a href="https://github.com/Shriya0202" class="text-decoration-none d-block px-1"><i class="icon-social-github"></i></a></li>
+            <li class="list-inline-item"><a target="_blank" href="https://www.linkedin.com/in/shriya-saxena-287204205" class="text-decoration-none d-block px-1"><i class="icon-social-linkedin"></i></a></li>
+            <li class="list-inline-item"><a target="_blank" href="mailto:shriyasaxena0202@gmail.com " class="text-decoration-none d-block px-1"><i class="icon-social-google"></i></a></li>
+            <li class="list-inline-item"><a target="_blank" href="https://github.com/Shriya0202" class="text-decoration-none d-block px-1"><i class="icon-social-github"></i></a></li>
           </ul>
           </div>
         </div>
@@ -316,12 +286,12 @@
             <img src="/images/Shambhavi_Rai.jpg" class=" img-responsive  img-thumbnail rounded-circle" alt="image1">
           </div>
             <div class="content mt-2">
-            <h4>Sambhavi</h4>
+            <h4>Shambhavi Rai</h4>
             <p class="text-muted">Program Manager</p>
             <ul class="list-inline">
-            <li class="list-inline-item"><a href="http://linkedin.com/in/shambhavi-rai-7b1101204" class="text-decoration-none d-block px-1"><i class="icon-social-linkedin"></i></a></li>
-            <li class="list-inline-item"><a href="mailto: shambhavi.rai1604@gmail.com" class="text-decoration-none d-block px-1"><i class="icon-social-google"></i></a></li>
-            <li class="list-inline-item"><a href="https://github.com/shambhavirai16" class="text-decoration-none d-block px-1"><i class="icon-social-github"></i></a></li>
+            <li class="list-inline-item"><a target="_blank" href="http://linkedin.com/in/shambhavi-rai-7b1101204" class="text-decoration-none d-block px-1"><i class="icon-social-linkedin"></i></a></li>
+            <li class="list-inline-item"><a target="_blank" href="mailto: shambhavi.rai1604@gmail.com" class="text-decoration-none d-block px-1"><i class="icon-social-google"></i></a></li>
+            <li class="list-inline-item"><a target="_blank" href="https://github.com/shambhavirai16" class="text-decoration-none d-block px-1"><i class="icon-social-github"></i></a></li>
           </ul>
           </div>
         </div>
@@ -337,7 +307,7 @@
       <p class="text-muted">Meet and Greet our Team Members</p>
     </div>
     <div class="row center">
-      <div class="col-lg-2 col-md-6 col-sm-3 col-xs-12">
+      <div class="col-lg-4 col-md-6 col-sm-3 col-xs-12">
         <div class="img-block mb-2">
           <div class="crop">
             <img src="/images/Karan Dhingra.jpg" class=" img-responsive  img-thumbnail rounded-circle" alt="image1">
@@ -346,14 +316,14 @@
             <h4>Karan Dhingra</h4>
             <p class="text-muted">Marketing Manager</p>
             <ul class="list-inline">
-            <li class="list-inline-item"><a href="https://www.linkedin.com/in/karan-dhingra-4bb854143" class="text-decoration-none d-block px-1"><i class="icon-social-linkedin"></i></a></li>
-            <li class="list-inline-item"><a href="mailto:Karandhingra.contact@gmail.com " class="text-decoration-none d-block px-1"><i class="icon-social-google"></i></a></li>
-            <li class="list-inline-item"><a href="https://github.com/Karan-Dhingra" class="text-decoration-none d-block px-1"><i class="icon-social-github"></i></a></li>
+            <li class="list-inline-item"><a target="_blank" href="https://www.linkedin.com/in/karan-dhingra-4bb854143" class="text-decoration-none d-block px-1"><i class="icon-social-linkedin"></i></a></li>
+            <li class="list-inline-item"><a target="_blank" href="mailto:Karandhingra.contact@gmail.com" class="text-decoration-none d-block px-1"><i class="icon-social-google"></i></a></li>
+            <li class="list-inline-item"><a target="_blank" href="https://github.com/Karan-Dhingra" class="text-decoration-none d-block px-1"><i class="icon-social-github"></i></a></li>
           </ul>
           </div>
         </div>
       </div>
-      <div class="col-lg-2 col-md-6 col-sm-3 col-xs-12">
+      <div class="col-lg-4 col-md-6 col-sm-3 col-xs-12">
         <div class="img-block mb-2">
           <div class="crop">
             <img src="/images/Divyanshii.jpeg" class=" img-responsive  img-thumbnail rounded-circle" alt="image1">
@@ -362,30 +332,14 @@
             <h4>Divyanshi Sharma</h4>
             <p class="text-muted">Community Growth Evangelist</p>
             <ul class="list-inline">
-            <li class="list-inline-item"><a href="https://www.linkedin.com/in/divyanshi-sharma-a983741b6" class="text-decoration-none d-block px-1"><i class="icon-social-linkedin"></i></a></li>
-            <li class="list-inline-item"><a href="mailto:Sharmadivi02@gmail.com " class="text-decoration-none d-block px-1"><i class="icon-social-google"></i></a></li>
-            <li class="list-inline-item"><a href="https://github.com/Divyanshi-03" class="text-decoration-none d-block px-1"><i class="icon-social-github"></i></a></li>
+            <li class="list-inline-item"><a target="_blank" href="https://www.linkedin.com/in/divyanshi-sharma-a983741b6" class="text-decoration-none d-block px-1"><i class="icon-social-linkedin"></i></a></li>
+            <li class="list-inline-item"><a target="_blank" href="mailto:Sharmadivi02@gmail.com " class="text-decoration-none d-block px-1"><i class="icon-social-google"></i></a></li>
+            <li class="list-inline-item"><a target="_blank" href="https://github.com/Divyanshi-03" class="text-decoration-none d-block px-1"><i class="icon-social-github"></i></a></li>
           </ul>
           </div>
         </div>
       </div>
-      <div class="col-lg-2 col-md-6 col-sm-3 col-xs-12">
-        <div class="img-block mb-2">
-          <div class="crop">
-            <img src="/images/sargam.jpeg" class=" img-responsive  img-thumbnail rounded-circle" alt="image1">
-          </div>
-            <div class="content mt-2">
-            <h4>Sargam Agarawal</h4>
-            <p class="text-muted">Public Relations Manager</p>
-            <ul class="list-inline">
-              <li class="list-inline-item"><a href="https://www.linkedin.com/in/sargam-agarwal-9320791a5" class="text-decoration-none d-block px-1"><i class="icon-social-linkedin"></i></a></li>
-              <li class="list-inline-item"><a href="mailto:sargam123india@gmail.com" class="text-decoration-none d-block px-1"><i class="icon-social-google"></i></a></li>
-            <li class="list-inline-item"><a href="https://github.com/Sargam-Agarwal" class="text-decoration-none d-block px-1"><i class="icon-social-github"></i></a></li>
-          </ul>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-6 col-lg-2 ">
+      <div class="col-lg-4 col-md-6 col-sm-3 col-xs-12">
         <div class="img-block mb-2">
           <div class="crop">
             <img src="/images/Aastha Katakwar.jpg" class=" img-responsive  img-thumbnail rounded-circle" alt="image1">
@@ -394,9 +348,9 @@
             <h4>Aastha Katakwar</h4>
             <p class="text-muted">Outreach Manager</p>
             <ul class="list-inline">
-            <li class="list-inline-item"><a href="https://www.linkedin.com/in/aastha-katakwar-a2967a208" class="text-decoration-none d-block px-1"><i class="icon-social-linkedin"></i></a></li>
-            <li class="list-inline-item"><a href="mailto:aastha.katakwar.ak@gmail.com " class="text-decoration-none d-block px-1"><i class="icon-social-google"></i></a></li>
-            <li class="list-inline-item"><a href="" class="text-decoration-none d-block px-1"><i class="icon-social-github"></i></a></li>
+            <li class="list-inline-item"><a target="_blank" href="https://www.linkedin.com/in/aastha-katakwar-a2967a208" class="text-decoration-none d-block px-1"><i class="icon-social-linkedin"></i></a></li>
+            <li class="list-inline-item"><a target="_blank" href="mailto:aastha.katakwar.ak@gmail.com " class="text-decoration-none d-block px-1"><i class="icon-social-google"></i></a></li>
+            <li class="list-inline-item"><a target="_blank" href="#" class="text-decoration-none d-block px-1"><i class="icon-social-github"></i></a></li>
           </ul>
           </div>
         </div>
@@ -407,6 +361,14 @@
 <div id="footer-placeholder">
 </div>
 </body>
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+
+<script>
+  const preLoader = document.getElementById('techsahead-loader');
+  function loadPage() {
+    preLoader.style.display = 'none';
+  }
+</script>
 <script>
   $(document).ready(function () {
     $('.container ul.toggle').click(function () {
@@ -415,12 +377,18 @@
     })
   })
 </script>
+<script>
+  $(function () {
+    $("#page-loader").load("/Loading");
+  });
+</script>
 
 <script>
   $(function () {
     $("#nav-placeholder").load("../nav.html");
   });
 </script>
+
 
 <script>
   $(function () {

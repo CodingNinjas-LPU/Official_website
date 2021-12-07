@@ -15,7 +15,7 @@
     
     display: block;
     margin-left: 15px;
-    margin-right: auto;
+    margin-right: 15px;
     justify-content: center;
     display: flex;
     /* width: 60%; */
@@ -49,14 +49,16 @@
 }
 
 .container-colorscheme button{
+    height: 20px;
+    width: 20px;
     outline: none;
-    margin: 5px;
+    margin-right: 7px;
     border: 0px;
     border-radius: 50%;
 }
 .college-button{
     padding: 0.5rem 1.5rem;
-    border-radius: 9999px;
+    border-radius: 30px;
     /* margin-top: 10%; */
     color: #fff;
     background-color: #ED221D;
@@ -97,4 +99,52 @@
     /* overflow: scroll; */
     align-items: center;
     justify-content: center;
+}
+
+@media (max-width: 1024px) {
+    .college-button{
+        padding: 0.5rem 1rem;
+        margin-right: 8px;
+        margin-top: 12px;
+        margin-bottom: 12px;
+        font-size: 1.2rem;
+        line-height: 1rem;
+    }
+}
+
+@media (max-width: 885px) {
+    .container-calendar{
+        overflow: scroll;
+    }
+
+    .container-button{
+        flex-direction: column;
+    }
+
+    .college-button{
+        padding: 0.5rem 0.8rem;
+        width: 300px;
+        margin-top: 8px;
+        border-radius: 15px;
+        margin-bottom: 8px;
+        font-size: 1rem;
+        line-height: 0.7rem;
+    }
+}
+
+@media (max-width: 540px){
+    .container-colorscheme{
+        margin: 8px 6px;
+    }
+
+    .container-colorscheme button{
+        height: 12px;
+        width: 12px;
+    }
+
+    .container-colorscheme span{
+        margin-right: 8px;
+        font-size: 14px;
+    }
+    
 }
