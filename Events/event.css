@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+*{
+    color: white;
+}
+.event-page{
+    background-color: #202020;
+}
+.container-heading{
+    text-align: center;
+    font-size: 2.5rem;
+    padding: 16px 0px 12px 0px;
+}
+.container-calendar{
+    
+    display: block;
+    margin-left: 15px;
+    margin-right: auto;
+    justify-content: center;
+    display: flex;
+    /* width: 60%; */
+}
+.container-button{
+    display: flex;
+    align-items: center;
+    /* padding: 1px 331px; */
+    margin: auto auto;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.color-scheme{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-colorscheme{
+    /* width: 40%; */
+    display: flex;
+    align-items: flex-start;
+    justify-content: left;
+    margin: 20px 10px;
+    /* flex-direction: column; */
+}
+
+.container-colorscheme span{
+    margin-right: 20px;
+}
+
+.container-colorscheme button{
+    outline: none;
+    margin: 5px;
+    border: 0px;
+    border-radius: 50%;
+}
+.college-button{
+    padding: 0.5rem 1.5rem;
+    border-radius: 9999px;
+    /* margin-top: 10%; */
+    color: #fff;
+    background-color: #ED221D;
+    outline: none;
+    margin-right: 20px;
+    /* font-weight: 600; */
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: none;
+    /* font-weight: bold; */
+    cursor: pointer;
+    font-size: 1.4rem;
+    line-height: 1.2rem;
+}
+
+.college-button:hover{
+    outline: none;
+    background-color: #941210;
+    transition: all .3s ease-in-out;
+}
+
+.college-button:focus{
+    outline: none;
+}
+
+.sponsor-button:hover{
+    outline: none;
+    background-color: #941210;
+    transition: all .3s ease-in-out;
+}
+
+.sponsor-button:focus{
+    outline: none;
+}
+
+.calendar{
+    display: flex;
+    /* overflow: scroll; */
+    align-items: center;
+    justify-content: center;
+}

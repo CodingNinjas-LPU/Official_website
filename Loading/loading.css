@@ -1,0 +1,53 @@
+.loader-page section {
+  min-height: 100vh;
+  width: 100%;
+  background-color: rgb(22, 22, 22);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.loader-page .logo {
+  height: 80px;
+  margin: 0 48px;
+  border-radius: 16px;
+  margin-bottom: 20px;
+}
+.loader-page .container {
+  margin: 0 50px;
+  width: fit-content;
+  height: auto;
+}
+.loader-page .container .dot {
+  height: 12px;
+  width: 12px;
+  background-color: whitesmoke;
+  display: inline-block;
+  margin: 0 5px;
+  border-radius: 50px;
+}
+.loader-page .container:nth-child(2) .dot {
+  animation: dotLoaders2 1.5s linear infinite forwards;
+}
+.loader-page .container .dot.dot-1 {
+  animation-delay: 0.25s;
+}
+.loader-page .container .dot.dot-2 {
+  animation-delay: 0.5s;
+}
+.loader-page .container .dot.dot-3 {
+  animation-delay: 0.75s;
+}
+@keyframes dotLoaders2 {
+  0% {
+    background-color: rgba(255, 255, 255, 0.137);
+    transform: scale(0.8);
+  }
+  50% {
+    background-color: rgb(255, 255, 255);
+    transform: scale(1.5);
+  }
+  100% {
+    background-color: rgba(255, 255, 255, 0.137);
+    transform: scale(0.8);
+  }
+}

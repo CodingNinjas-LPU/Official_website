@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/index.css">
+    <link rel="stylesheet" href="/nav.css">
+    <link rel="stylesheet" href="./event.css">
+    <link rel="stylesheet" href="/Footer/footer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;1,300&display=swap"
+        rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <title>Techsahead 💻</title>
+</head>
+
+<body>
+    <section class="event-page">
+        <div id="nav-placeholder">
+        </div>
+        <div class="container-heading">
+            <h1>Events</h1>    
+        </div>
+        <div class="container-calendar">
+            <div class="calender">
+                <iframe src="https://calendar.google.com/calendar/embed?src=techsahead2021%40gmail.com&ctz=Asia%2FKolkata" style="border: 0" width="850" height="600" frameborder="0" scrolling="yes"></iframe>
+            </div>
+        </div>
+        <div class="color-scheme">
+            <div class="container-colorscheme">
+                <div class="flex">
+                    <button class="red" style="background-color:#c90606; height: 20px; width: 20px"></button>
+                    <span>Past Events</span>
+                </div>
+                <div class="flex">
+                    <button class="green" style="background-color:#66fa1b; height: 20px; width: 20px"></button>
+                    <span>Ongoing Events</span>
+                </div>
+                <div class="flex">
+                    <button class="blue" style="background-color:#1b7cfa; height: 20px; width: 20px"></button>
+                    <span>Upcoming Events</span>
+                </div>
+            </div>    
+        </div>
+        <div class="container-button">
+            <a href="https://forms.gle/Q752QWrUL2HBY7Ch9" target="_blank"><button class="college-button">Sponsor Us</button></a>
+            <a href="https://forms.gle/oCmo1XQwr6bC23mm7" target="_blank"><button class="college-button">Become our College Partner</button></a>
+            <a href="https://forms.gle/FueUF8EPj4X8mjxN9" target="_blank"><button class="college-button">Become our Community Partner</button></a>
+        </div>
+        
+        
+        
+
+    </section>
+    <div id="footer-placeholder">
+    </div>
+</body>
+<script>
+    $(document).ready(function () {
+        $('.container ul.toggle').click(function () {
+            $(this).toggleClass('active');
+            $('.container .sidebar').toggleClass('active');
+        })
+    })
+</script>
+
+<script>
+    $(function () {
+        $("#nav-placeholder").load("../nav.html");
+    });
+</script>
+
+<script>
+    $(function () {
+        $("#footer-placeholder").load("/Footer");
+    });
+</script>
+
+</html>

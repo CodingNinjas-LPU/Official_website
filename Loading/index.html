@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="loading.css">
+  <title>Loading...</title>
+  <link rel="stylesheet" href="../nav.css">
+  <link rel="stylesheet" href=" https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+</head>
+<body>
+  <!-- <div id="nav-placeholder">
+  </div> -->
+  <section class="loader-page">
+    <div>
+      <img src="/img/Logo2.png" alt="logo" class="logo" />
+      <div class="container">
+        <div class="dot dot-1"></div>
+        <div class="dot dot-2"></div>
+        <div class="dot dot-3"></div>
+      </div>
+  </div>
+  </section>
+</body>
+<script>
+  $(document).ready(function () {
+    $('.container ul.toggle').click(function () {
+      $(this).toggleClass('active');
+      $('.container .sidebar').toggleClass('active');
+    })
+  })
+</script>
+
+<script>
+  $(function () {
+    $("#nav-placeholder").load("../nav.html");
+  });
+</script>
+</html>

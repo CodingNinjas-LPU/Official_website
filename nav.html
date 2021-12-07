@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- <link rel="stylesheet" href="./nav_new.css"> -->
+<link rel="stylesheet" href="./nav.css">
+<link rel="stylesheet" href=" https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet" />
+<title>Home</title>
+</head>
+<body>
+    <nav class="navigation-menu default-nav">
+        <div class="logo">
+            <a href="/"><img  src="/img/logo.svg" alt="logo" /></a>
+        </div>
+        <div class="navbar-list">
+            <ul class="default-ul">
+                <li class="">
+                    <a class="" href="/">Home</a>
+                </li>
+                <li class="">
+                    <a class="" href="/Events">Events</a>
+                </li>
+                <li class="">
+                    <a class="" href="/Team_Page">Team</a>
+                </li>
+                <li class="">
+                    <a class="" href="/CA_Page">Campus Ambassador</a>
+                </li>
+                <li class="">
+                    <a class="" href="/#about-section">About Us</a>
+                </li>
+                <li class="">
+                    <a class="" href="/#contact-section">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <nav class="mobile-nav">
+        <div class="logo">
+            <a href="/"><img src="/img/logo.svg" alt="logo" /></a>
+        </div>
+        <div class="container-nav">    
+            <ul class="toggle">
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+            <div class="sidebar">
+                <a href="/"><img src="/img/logo.svg" alt="logo" /></a>
+                <ul class="menu">
+                    <li>
+                        <a href="/">Home</a>
+                    </li>
+                    <li>
+                        <a href="/Events">Events</a>
+                    </li>
+                    <li>
+                        <a href="/Team_Page">Team</a>
+                    </li>
+                    <li>
+                        <a href="/CA_Page">Campus Ambassador</a>
+                    </li>
+                    <!-- <li>
+                        <a href="/#about-section">About Us</a>
+                    </li>
+                    <li>
+                        <a href="/#contact-section">Contact</a>
+                    </li> -->
+                </ul>
+                <!-- <ul class="social-icon">
+                    <li><a href="#"> <i class="fa fa-facebook" aria-hidden="true"></i> </a> </li>
+                    <li><a href="#"> <i class="fa fa-twitter" aria-hidden="true"></i> </a> </li>
+                    <li><a href="#"> <i class="fa fa-google-plus" aria-hidden="true"></i> </a> </li>
+                    <li><a href="#"> <i class="fa fa-linkedin" aria-hidden="true"></i> </a> </li>
+                    <li><a href="#"> <i class="fa fa-skype" aria-hidden="true"></i> </a> </li>
+                </ul> -->
+                
+            </div>
+        </div>
+    </nav>
+</body>
+
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<script>
+    $(document).ready(function(){
+        $('.container-nav ul.toggle').click(function(){
+            $(this).toggleClass('active');
+            $('.container-nav .sidebar').toggleClass('active');
+        })
+    })
+</script>
+</html>

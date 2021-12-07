@@ -1,0 +1,133 @@
+@import url(//fonts.googleapis.com/css?family=Montserrat:300,500);
+
+*{
+     /* background-color: black; */
+    color: white;
+} 
+
+.team{
+  background-color: #202020;
+}
+
+ul{
+  margin-bottom: 0;
+}
+
+#nav-placeholder ul li a{
+  padding-right: 0;
+}
+
+/* .team4 {
+  font-family: "Montserrat", sans-serif;
+	color: #3e4555;
+  font-weight: 300;
+}
+.team4 h1, .team4 h2, .team4 h3, .team4 h4, .team4 h5, .team4 h6 {
+  color: #3e4555;
+}
+.team4 .font-weight-medium {
+	font-weight: 500;
+}
+.team4 h5 {
+    line-height: 22px;
+    font-size: 18px;
+}
+.team4 .subtitle {
+    color: #8d97ad;
+    line-height: 24px;
+		font-size: 13px;
+} */
+
+.team ul li a {
+  color: #8d97ad;
+  padding-right: 15px;
+  -webkit-transition: 0.1s ease-in;
+  -o-transition: 0.1s ease-in;
+  transition: 0.1s ease-in;
+}
+
+.team ul li a:hover {
+  -webkit-transform: translate3d(0px, -5px, 0px);
+  transform: translate3d(0px, -5px, 0px);
+	color: #316ce8;
+}
+
+.head{
+  color: white;
+}
+.crop{
+    width: 181px;
+    height: 181px;
+    justify-content: center;
+    padding: 6px;
+    overflow:hidden;   
+    position:relative;
+    display: inline-block;
+    align-items: center;
+    /* margin-right: 20px;
+    margin-left: 20px; */
+}
+
+.center{
+  /* margin: auto; */
+  display: flex;
+  justify-content: space-between;
+  /* padding: 20px; */
+}
+
+.cropVIP{
+  width: 220px;
+    height: 220px;
+    justify-content: center;
+    padding: 6px;
+    overflow:hidden;   
+    position:relative;
+    display: inline-block;
+    align-items: center;
+    /* margin-right: 20px;
+    margin-left: 20px; */
+
+}
+.cropCA{
+  width: 190px;
+    height: 190px;
+    justify-content: center;
+    padding: 6px;
+    overflow:hidden;   
+    position:relative;
+    display: inline-block;
+    align-items: center;
+    /* margin-right: 20px;
+    margin-left: 20px; */
+
+}
+
+.custom-contact-join-btn{
+  background: #ED221D;
+  outline: none;
+  /* width: 30%; */
+  margin: 1.9rem 0;
+  border: none;
+  border-radius: 15px;
+  line-height:1.2rem;
+  padding: 0.6rem 1rem;
+  font-weight: 600;
+  font-size: 1.3rem;
+  margin-bottom: 1.2rem;
+  cursor: pointer;
+  /* margin-top: 10px; */
+}
+
+.custom-contact-join-btn:hover{
+  outline: none;
+  background-color: #941210;
+  transition: all .3s ease-in-out;
+}
+
+@media (max-width: 450px) {
+  .custom-contact-join-btn{
+    font-size: 1rem;
+    padding: 0.4rem 0.8rem;
+    line-height: 1rem;
+  }
+}

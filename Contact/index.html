@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./contactForm.css">
+    <link rel="stylesheet" href="/Footer/footer.css">
+    <link rel="stylesheet" href="../nav.css">
+    <link rel="stylesheet" href=" https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <title>Contact 🤙</title>
+</head>
+<body>
+    <div class="parent-color">
+        <div id="nav-placeholder">
+        </div>
+        <div class="form-section">
+            <div class="form-box-main">
+                <form class="contact-form" action="" method="">
+                    <input class="custom-input-dark" type="email" placeholder="Email">
+                <input class="custom-input-dark" type="text" placeholder="Name">
+                <textarea class="custom-text-area-dark" name="" id="" cols="30" rows="5" placeholder="Write your queries here"></textarea>
+                <button class="custom-contact-join-btn" type="submit">SUBMIT</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div id="footer-placeholder">
+    </div>
+</body>
+<script>
+    $(document).ready(function () {
+        $('.container ul.toggle').click(function () {
+            $(this).toggleClass('active');
+            $('.container .sidebar').toggleClass('active');
+        })
+    })
+</script>
+
+<script>
+    $(function () {
+        $("#nav-placeholder").load("../nav.html");
+    });
+</script>
+
+<script>
+    $(function () {
+        $("#footer-placeholder").load("/Footer");
+    });
+</script>
+</html>

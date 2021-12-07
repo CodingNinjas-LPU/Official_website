@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="aboutus.css">
+    <link rel="stylesheet" href="../nav.css">
+    <link rel="stylesheet" href="/Footer/footer.css">
+    <link rel="stylesheet" href=" https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="parent-color" style="text-align: center;">
+        <div id="nav-placeholder">
+        </div>
+        <div class="about-text" style="display: inline-block; text-align: wrap;">
+            <h1 align="center">About Us</h1>
+            <p>
+                With the belief of live as if you were to die tomorrow. Learn as if you were to live forever.<br />
+                At techsahead we are here with a community dedicated to all students and learners who are<br /> tech
+                enthusiasts
+                , budding enterprenures, designer or a bizarre learner who want to work with<br /> society and for society.
+                Techsahead is an open platform to come and explore your endless <br />skills. We always believe in the
+                ability
+                to grab the knowledge to strengthen humanity and make<br /> greater impacts for making the world a better
+                place
+                to live.We organize peer to peer mentoring<br /> session ,engage with people and make sure you learn the
+                best,
+                from the best.Never<br /> missout the golden opportunities that can put stars in your carrer.<br />
+            </p>
+        </div>
+    </div>
+    <!-- <div id="footer-placeholder">
+    </div> -->
+</body>
+<script>
+    $(document).ready(function () {
+        $('.container ul.toggle').click(function () {
+            $(this).toggleClass('active');
+            $('.container .sidebar').toggleClass('active');
+        })
+    })
+</script>
+
+<script>
+    $(function () {
+        $("#nav-placeholder").load("../nav.html");
+    });
+</script>
+
+<script>
+    $(function () {
+        $("#footer-placeholder").load("/Footer");
+    });
+</script>
+
+</html>

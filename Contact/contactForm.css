@@ -1,0 +1,231 @@
+:root {
+    --back: #121212;
+    --white: #ffffff;
+    --red: #ED221D;
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+}
+
+input,
+textarea,
+button,
+select,
+a {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+body{
+    -webkit-tap-highlight-color: transparent;
+}
+
+.parent-color{
+    background: #202020;
+}
+
+.form-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 720px;
+}
+
+.form-box-main{
+    background: #121212;
+    min-width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.custom-input-dark{
+    background: none;
+    outline: none;
+    height: 40px;
+    width: 80%;
+    margin: 0.8rem 0;
+    border: 1px solid #444444;
+    border-radius: 20px;
+    padding: 0.5rem 1.2rem;
+    font-size: 1.3rem;
+}
+
+.custom-text-area-dark{
+    background: none;
+    outline: none;
+    width: 80%;
+    margin: 0.8rem 0;
+    border: 1px solid #444444;
+    border-radius: 20px;
+    padding: 0.9rem 1.2rem;
+    font-size: 1.3rem;
+}
+
+.custom-contact-join-btn{
+    background: #ED221D;
+    outline: none;
+    width: 15%;
+    margin: 0.8rem 0;
+    border: none;
+    border-radius: 30px;
+    padding: 0.6rem 1.2rem;
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin-bottom: 1.8rem;
+    cursor: pointer;
+}
+
+.custom-contact-join-btn:hover{
+    outline: none;
+    background-color: #941210;
+    transition: all .3s ease-in-out;
+}
+
+.form-box-main:before {
+    position: relative;
+    content: "Any queries";
+    background: #313131;
+    font-size: 3rem;
+    display: flex;
+    width: 30%;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 4rem;
+    border-radius: 1.3rem;
+    text-align: center;
+    bottom: 30px;
+}
+
+@media(max-width: 940px){
+    .form-box-main:before {
+        font-size: 2.5rem;
+        padding: 1rem 4rem;
+    }
+    .custom-contact-join-btn{
+        padding: 0.6rem 1rem;
+        font-size: 1.1rem;
+        width: 14%;
+        margin-bottom: 1.8rem;
+        cursor: pointer;
+    }
+}
+
+@media(max-width: 785px){
+    .form-box-main:before {
+        font-size: 2rem;
+        padding: 1rem 4rem;
+    }
+    .custom-contact-join-btn{
+        padding: 0.6rem 0.8rem;
+        width: 17%;
+        font-size: 1.1rem;
+        margin-bottom: 1.8rem;
+        cursor: pointer;
+    }
+}
+
+@media(max-width: 630px){
+    .form-box-main:before {
+        font-size: 1.6rem;
+        padding: 1rem 3rem;
+    }
+    .custom-contact-join-btn{
+        padding: 0.5rem 0.6rem;
+        width: 20%;
+        font-size: 1.2rem;
+        margin-bottom: 1.8rem;
+        cursor: pointer;
+    }
+}
+
+@media(max-width: 502px){
+    .form-box-main:before {
+        font-size: 1.5rem;
+        padding: 1rem 2.5rem;
+    }
+    .custom-contact-join-btn{
+        padding: 0.5rem 0.6rem;
+        width: 24%;
+        font-size: 1.2rem;
+        margin-bottom: 1.8rem;
+        cursor: pointer;
+    }
+}
+
+@media(max-width: 470px){
+    .form-box-main:before {
+        font-size: 1.1rem;
+        border-radius: 1.1rem;
+        bottom: 20px;
+        padding: 0.6rem 2.5rem;
+    }
+
+    .custom-input-dark{
+        height: 30px;
+        padding: 0.5rem 1rem;
+        font-size: 1.3rem;
+        margin: 0.5rem 0;
+    }
+    
+    .custom-text-area-dark{
+        padding: 0.9rem 1rem;
+        font-size: 1.3rem;
+        margin: 0.5rem 0;
+    }
+
+
+    .custom-contact-join-btn{
+        padding: 0.5rem 0.6rem;
+        width: 30%;
+        font-size: 1.2rem;
+        margin-bottom: 1.8rem;
+        cursor: pointer;
+    }
+    
+}
+
+@media(max-width: 310px){
+    .form-box-main:before {
+        font-size: 0.9rem;
+        border-radius: 0.9rem;
+        bottom: 15px;
+        padding: 0.6rem 2rem;
+    }
+
+    .custom-input-dark{
+        height: 30px;
+        padding: 0.5rem 0.7rem;
+        font-size: 1rem;
+        margin: 0.5rem 0;
+    }
+    
+    .custom-text-area-dark{
+        padding: 0.9rem 0.7rem;
+        font-size: 1rem;
+        margin: 0.5rem 0;
+    }
+
+
+    .custom-contact-join-btn{
+        padding: 0.2rem 0.4rem;
+        width: 34%;
+        font-size: 1.1rem;
+        margin-bottom: 1.8rem;
+        cursor: pointer;
+    }
+    
+}
