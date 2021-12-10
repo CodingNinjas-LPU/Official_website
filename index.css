@@ -68,7 +68,9 @@ body{
 }
 
 .ca-button{
-    border-radius: 9999px;
+    border-radius: 50px;
+    height: 80%;
+    width: 150%;
     color: #fff;
     background-color: #ED221D;
     outline: none;
