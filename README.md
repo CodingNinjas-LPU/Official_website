@@ -1,27 +1,28 @@
 <p align="center">
-<a><img src="https://user-images.githubusercontent.com/74819092/129078722-c4725276-3c50-44c6-8a13-9ac2bc6a9cae.png" width="300px"> </a>
+<a><img src="https://www.codingninjas.com/assets-landing/images/CNLOGO.svg" width="300px"> </a>
   
 
   </p>
 
-<h1 align="center">Welcome <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px"> to Techsahead</h1>
+<h1 align="center">Welcome <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px"> to Coding Ninjas - LPU</h1>
+
 
 
 ![Followers](https://img.shields.io/github/followers/Techsahead?style=plastic&color=white=FOLLOWERS)
 ![Stars](https://img.shields.io/github/stars/Techahead?affiliations=OWNER&style=social)
-<img src="https://komarev.com/ghpvc/?username=Techsahead" alt="Techsahead" /> 
+<img src="https://komarev.com/ghpvc/?username=CodingNinjas-LPU" alt="CodingNinjas" /> 
   
   </p>
  
 <h2 align="center">Let's learn and grow together! 🌱</h2>
 <p align="center">
   
-   <img src="https://user-images.githubusercontent.com/74819092/129082774-e74b7928-5a9c-4917-95a9-26cabc40c2db.jpeg" width=300, height=200>
-       
+   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6xRtLJRKPow_LKpj3Byq_iXOV1sg2nVpjkg&usqp=CAU" width=300, height=200>
+   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7nsmQy4r_zuZIKrLooIQq4dty4t-nmY73UQ&usqp=CAU" width=300, height=200>       
 </p>
 <h2>💻 About Us</h2>
 
-Our community is an open platform for all students to learn and grow together. At *Techsahead* we believe in the power of knowledge to enhance humanity and make greater impacts. For tech-enthusiast, budding entrepreneurs, designers, and curious learners, Techsahead is here for you. We organize peer to peer learning sessions, engage with people and make sure you learn from the best. To stay updated about the latest trends in technology stay tuned with us.
+Our community is an open platform for all students to learn and grow together. At *Coding Ninjas* we believe in the power of knowledge to enhance humanity and make greater impacts. For tech-enthusiast, budding entrepreneurs, designers, and curious learners, Techsahead is here for you. We organize peer to peer learning sessions, engage with people and make sure you learn from the best. To stay updated about the latest trends in technology stay tuned with us.
 
 <h2>🤩 Perks of Joining Community </h2>
 
@@ -33,11 +34,11 @@ Our community is an open platform for all students to learn and grow together. A
 
 ## 🤝🏻 Join Our Community:
 <p align="left">
-<a href = "https://discord.gg/gn6mAXcf4q" target="_blank"><img src="https://img.icons8.com/color/48/000000/discord--v2.png"/>
-<a href = "https://www.linkedin.com/company/techsahead" target="_blank"><img src="https://img.icons8.com/fluent/48/000000/linkedin.png"/></a>
-<a href = "https://www.instagram.com/techsahead/" target="_blank"><img src="https://img.icons8.com/fluency/48/000000/instagram-new.png"/>
-<a href = "https://www.youtube.com/channel/UCpwPUtcsdwetPI0W7wa8HtA" target="_blank"><img src="https://img.icons8.com/color/48/000000/youtube-play.png"/></a>
-<a href = "https://t.me/joinchat/k6cgFLo21rQ5MjZl" target="_blank"><img src="https://img.icons8.com/color/50/000000/telegram-app.png"/></a>
+<a href = "#" target="_blank"><img src="https://img.icons8.com/color/48/000000/discord--v2.png"/>
+<a href = "#" target="_blank"><img src="https://img.icons8.com/fluent/48/000000/linkedin.png"/></a>
+<a href = "# target="_blank"><img src="https://img.icons8.com/fluency/48/000000/instagram-new.png"/>
+<a href = "#" target="_blank"><img src="https://img.icons8.com/color/48/000000/youtube-play.png"/></a>
+<a href = "#" target="_blank"><img src="https://img.icons8.com/color/50/000000/telegram-app.png"/></a>
 </p>
   
   
@@ -53,7 +54,7 @@ Our community is an open platform for all students to learn and grow together. A
   
 ### Mails us your resume if you want to become our Campus Ambassador 😎 
 
-  [![Gmail Badge](https://img.shields.io/badge/-techsahead2021@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:techsahead2021@gmail.com)](mailto:techsahead2021@gmail.com)
+  [![Gmail Badge](https://img.shields.io/badge/-codingninjaslpu@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:codingninjaslpu@gmail.com)](mailto:codingninjaslpu@gmail.com)
   
 ## Community Founder 👩🏻‍💻
 <a href = "https://github.com/iamgunjan/iamgunjan"><img src="https://avatars.githubusercontent.com/u/53567221?v=4" width=50, height=50/></a>
