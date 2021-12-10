@@ -16,7 +16,7 @@
 <h2 align="center">Let's learn and grow together! 🌱</h2>
 <p align="center">
   
-   <img src="https://user-images.githubusercontent.com/74819092/129082774-e74b7928-5a9c-4917-95a9-26cabc40c2db.jpeg" width=300, height=200>
+   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6xRtLJRKPow_LKpj3Byq_iXOV1sg2nVpjkg&usqp=CAU" width=300, height=200>
        
 </p>
 <h2>💻 About Us</h2>
