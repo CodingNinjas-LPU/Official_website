@@ -57,16 +57,16 @@ Our community is an open platform for all students to learn and grow together. A
   [![Gmail Badge](https://img.shields.io/badge/-codingninjaslpu@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:codingninjaslpu@gmail.com)](mailto:codingninjaslpu@gmail.com)
   
 ## Community Founder 👩🏻‍💻
-<a href = "https://github.com/iamgunjan/iamgunjan"><img src="https://avatars.githubusercontent.com/u/53567221?v=4" width=50, height=50/></a>
+<a href = "https://github.com/imrantechwiz"><img src="https://avatars.githubusercontent.com/u/56226186?v=4" width=50, height=50/></a>
   
-## Techsahead Contributors 💪🏻
-<a href = "https://github.com/Komal-99"><img src="https://avatars.githubusercontent.com/u/74819092?s=400&v=4" width=50, height=50/></a>
-  <a href = "https://github.com/Dhairya3124"><img src="https://avatars.githubusercontent.com/u/31827131?v=4" width=50, height=50/></a>
+## CN-LPU Contributors 💪🏻
+
   <a href = "https://github.com/imrantechwiz"><img src="https://avatars.githubusercontent.com/u/56226186?v=4" width=50, height=50/></a>
-  <a href = "https://github.com/Karan-Dhingra"><img src="https://avatars.githubusercontent.com/u/68160897?v=44" width=50, height=50/></a>
-  <a href = "http://github.com/dr-apex"><img src="https://avatars.githubusercontent.com/u/30815249?v=4" width=50, height=50/></a>
-  <a href = "http://www.github.com/alphadead"><img src="https://avatars.githubusercontent.com/u/59703099?v=4" width=50, height=50/></a>
-  <a href = "https://github.com/Divyanshi-03"><img src="https://avatars.githubusercontent.com/u/85453778?v=4" width=50, height=50/></a>
-  <a href = "https://github.com/LakshitPant09"><img src="https://avatars.githubusercontent.com/u/58610202?v=4" width=50, height=50/></a>
+   <a href = "https://github.com/imrantechwiz"><img src="https://avatars.githubusercontent.com/u/56226186?v=4" width=50, height=50/></a>
+    <a href = "https://github.com/imrantechwiz"><img src="https://avatars.githubusercontent.com/u/56226186?v=4" width=50, height=50/></a>
+   <a href = "https://github.com/imrantechwiz"><img src="https://avatars.githubusercontent.com/u/56226186?v=4" width=50, height=50/></a>
+   <a href = "https://github.com/imrantechwiz"><img src="https://avatars.githubusercontent.com/u/56226186?v=4" width=50, height=50/></a>
+    <a href = "https://github.com/imrantechwiz"><img src="https://avatars.githubusercontent.com/u/56226186?v=4" width=50, height=50/></a>
+
 
   
