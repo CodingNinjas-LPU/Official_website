@@ -7,6 +7,7 @@
 <h1 align="center">Welcome <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px"> to Coding Ninjas - LPU</h1>
 
 
+
 ![Followers](https://img.shields.io/github/followers/Techsahead?style=plastic&color=white=FOLLOWERS)
 ![Stars](https://img.shields.io/github/stars/Techahead?affiliations=OWNER&style=social)
 <img src="https://komarev.com/ghpvc/?username=CodingNinjas-LPU" alt="CodingNinjas" /> 
@@ -17,7 +18,7 @@
 <p align="center">
   
    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6xRtLJRKPow_LKpj3Byq_iXOV1sg2nVpjkg&usqp=CAU" width=300, height=200>
-       
+   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7nsmQy4r_zuZIKrLooIQq4dty4t-nmY73UQ&usqp=CAU" width=300, height=200>       
 </p>
 <h2>💻 About Us</h2>
 
