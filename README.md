@@ -59,7 +59,7 @@ Our community is an open platform for all students to learn and grow together. A
 ## Community Founder 👩🏻‍💻
 <a href = "https://github.com/imrantechwiz"><img src="https://avatars.githubusercontent.com/u/56226186?v=4" width=50, height=50/></a>
   
-## CN-LPUI Contributors 💪🏻
+## CN-LPU Contributors 💪🏻
 
   <a href = "https://github.com/imrantechwiz"><img src="https://avatars.githubusercontent.com/u/56226186?v=4" width=50, height=50/></a>
    <a href = "https://github.com/imrantechwiz"><img src="https://avatars.githubusercontent.com/u/56226186?v=4" width=50, height=50/></a>
