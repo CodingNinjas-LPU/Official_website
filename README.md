@@ -34,11 +34,11 @@ Our community is an open platform for all students to learn and grow together. A
 
 ## 🤝🏻 Join Our Community:
 <p align="left">
-<a href = "https://discord.gg/gn6mAXcf4q" target="_blank"><img src="https://img.icons8.com/color/48/000000/discord--v2.png"/>
-<a href = "https://www.linkedin.com/company/techsahead" target="_blank"><img src="https://img.icons8.com/fluent/48/000000/linkedin.png"/></a>
-<a href = "https://www.instagram.com/techsahead/" target="_blank"><img src="https://img.icons8.com/fluency/48/000000/instagram-new.png"/>
-<a href = "https://www.youtube.com/channel/UCpwPUtcsdwetPI0W7wa8HtA" target="_blank"><img src="https://img.icons8.com/color/48/000000/youtube-play.png"/></a>
-<a href = "https://t.me/joinchat/k6cgFLo21rQ5MjZl" target="_blank"><img src="https://img.icons8.com/color/50/000000/telegram-app.png"/></a>
+<a href = "#" target="_blank"><img src="https://img.icons8.com/color/48/000000/discord--v2.png"/>
+<a href = "#" target="_blank"><img src="https://img.icons8.com/fluent/48/000000/linkedin.png"/></a>
+<a href = "# target="_blank"><img src="https://img.icons8.com/fluency/48/000000/instagram-new.png"/>
+<a href = "#" target="_blank"><img src="https://img.icons8.com/color/48/000000/youtube-play.png"/></a>
+<a href = "#" target="_blank"><img src="https://img.icons8.com/color/50/000000/telegram-app.png"/></a>
 </p>
   
   
@@ -54,7 +54,7 @@ Our community is an open platform for all students to learn and grow together. A
   
 ### Mails us your resume if you want to become our Campus Ambassador 😎 
 
-  [![Gmail Badge](https://img.shields.io/badge/-techsahead2021@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:techsahead2021@gmail.com)](mailto:techsahead2021@gmail.com)
+  [![Gmail Badge](https://img.shields.io/badge/-codingninjaslpu@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:codingninjaslpu@gmail.com)](mailto:codingninjaslpu@gmail.com)
   
 ## Community Founder 👩🏻‍💻
 <a href = "https://github.com/iamgunjan/iamgunjan"><img src="https://avatars.githubusercontent.com/u/53567221?v=4" width=50, height=50/></a>
