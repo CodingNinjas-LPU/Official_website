@@ -1,5 +1,5 @@
 <p align="center">
-<a><img src="https://user-images.githubusercontent.com/74819092/129078722-c4725276-3c50-44c6-8a13-9ac2bc6a9cae.png" width="300px"> </a>
+<a><img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fcodingninjas.com%2Fassets-landing%2Fimages%2FCNLOGO.svg&imgrefurl=https%3A%2F%2Fwww.codingninjas.com%2Findex.html&tbnid=s-C3D55suJcjFM&vet=12ahUKEwinpLWrx9j0AhW_w3MBHbIMA6EQMygAegUIARDGAQ..i&docid=dFSbY9rIIrIWTM&w=960&h=464&itg=1&q=coding%20ninjas%20logo&ved=2ahUKEwinpLWrx9j0AhW_w3MBHbIMA6EQMygAegUIARDGAQ" width="300px"> </a>
   
 
   </p>
