@@ -19,7 +19,8 @@ calendarEvents: [
                         description: "The Event Description",
                         date: "Event Date", // you can use date rage if event is multiple days long like ["january/13/2022", "january/15/2022"]
                         type: "holiday", // holiday, event, birthday, anniversary
-                        everyYear: true // Same event every year (optional) no need to worry
+                        everyYear: true, // Same event every year (optional) no need to worry
+                        color: "red", // color of the event according to rules if past then change the color  (optional)
                     },
               
                 ]
