@@ -14,6 +14,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;1,300&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="/Loading/loading.css">
+    <!-- calendar css -->
+    <link rel="stylesheet" type="text/css" href="evo-calendar.min.css">
+    <link rel="stylesheet" type="text/css" href="evo-calendar.midnight-blue.min.css">
+    <!-- calendar css -->
     <title>Techsahead 💻</title>
 </head>
 
@@ -29,9 +33,9 @@
         </div>
         <div class="container-calendar">
             <div class="calender">
-                <iframe
-                    src="https://calendar.google.com/calendar/embed?src=techsahead2021%40gmail.com&ctz=Asia%2FKolkata"
-                    style="border: 0" width="850" height="600" frameborder="0" scrolling="yes"></iframe>
+                <div class="calender-hero">
+                    <div id="calendar"></div>
+                </div>
             </div>
         </div>
         <div class="color-scheme">
@@ -65,41 +69,73 @@
     </section>
     <div id="footer-placeholder">
     </div>
-</body>
-<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
 
-<script>
-    const preLoader = document.getElementById('techsahead-loader');
-    function loadPage() {
-        preLoader.style.display = 'none';
-    }
-</script>
+    <!-- *******************Scripts************************ -->
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
 
-<script>
-    $(function () {
-        $("#page-loader").load("/Loading");
-    });
-</script>
+    <script>
+        const preLoader = document.getElementById('techsahead-loader');
+        function loadPage() {
+            preLoader.style.display = 'none';
+        }
+    </script>
 
-<script>
-    $(document).ready(function () {
-        $('.container ul.toggle').click(function () {
-            $(this).toggleClass('active');
-            $('.container .sidebar').toggleClass('active');
+    <script>
+        $(function () {
+            $("#page-loader").load("/Loading");
+        });
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            $('.container ul.toggle').click(function () {
+                $(this).toggleClass('active');
+                $('.container .sidebar').toggleClass('active');
+            })
         })
-    })
-</script>
+    </script>
 
-<script>
-    $(function () {
-        $("#nav-placeholder").load("../nav.html");
-    });
-</script>
+    <script>
+        $(function () {
+            $("#nav-placeholder").load("../nav.html");
+        });
+    </script>
 
-<script>
-    $(function () {
-        $("#footer-placeholder").load("/Footer");
-    });
-</script>
+    <script>
+        $(function () {
+            $("#footer-placeholder").load("/Footer");
+        });
+    </script>
+    <!--All About calendar js -->
+    <script src="evo-calendar.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#calendar').evoCalendar({
+                theme: "Midnight Blue",
+
+                calendarEvents: [
+                    {
+                        id: 'event1', // Event's ID (required)
+                        name: "New Year", // Event name (required)
+                        description: "The Ffirst day Of new year",
+                        date: "January/1/2020", // Event date (required)
+                        type: "holiday", // Event type (required)
+                        everyYear: true // Same event every year (optional)
+                    },
+                    {
+                        name: "event2",
+                        badge: "02/13 - 02/15", // Event badge (optional)
+                        date: ["january/13/2022", "january/15/2022"], // Date range
+                        description: "Technical Festival For Thre  Days", // Event description (optional)
+                        type: "event",
+                        color: "blue" // Event custom color (optional)
+                    }
+                ]
+
+            })
+        })
+
+    </script>
+</body>
 
 </html>
