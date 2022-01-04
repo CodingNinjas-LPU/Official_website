@@ -8,13 +8,13 @@
 
 .about-text p{
     color: #fff;
-    font-size: 1.5rem;
+    font-size: 0.5rem;
 }
 
 
 @media (max-width: 1145px) {
     .about-text p{
         color: #fff;
-        font-size: 1rem;
+        font-size: 0.5rem;
     }
 }
