@@ -29,9 +29,9 @@
                 <li class="">
                     <a class="" href="/Team_Page">Team</a>
                 </li>
-                <!-- <li class="">
-                    <a class="" href="/CA_Page">Campus Ambassador</a>
-                </li> -->
+                <li class="">
+                    <a class="" href="/slider">Question</a>
+                </li>
                 <li class="">
                     <a class="" href="/#about-section">About Us</a>
                 </li>
@@ -94,6 +94,20 @@
             $('.container-nav .sidebar').toggleClass('active');
         })
     })
+    // Scroll Fixed
+    let nav = document.querySelector("nav");
+    let cancelBtn = document.querySelector(".cancel-btn");
+    window.onscroll = function (){
+        if(document.documentElement.scrollTop > 20){
+            nav.classList.add("sticky");
+            logoOne.classList.add("active");
+            menuBtn.classList.add("active");
+        }else{
+            nav.classList.remove("sticky");
+            logoOne.classList.remove("active");
+            menuBtn.classList.remove("active");
+    }}
+    
 </script>
 
 </html>
