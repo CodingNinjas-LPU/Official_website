@@ -196,6 +196,13 @@ body{
         cursor: pointer;
     }
     
+.custom-group .list-group-item {
+    border-left: none;
+    border-right: none;
+    font-weight: 600;
+    padding: 18px 0px;
+    border-color: #dce0e3;
+    
 }
 
 @media(max-width: 310px){
