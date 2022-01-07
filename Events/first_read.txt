@@ -1,0 +1,26 @@
+< ------------------How To Manage Events------------------ >
+This is a simple event manager that allows you to add, remove, and trigger events.
+This is embaded from evo calander.
+Please navigate to https://github.com/edlynvillegas/evo-calendar for more information.
+***********************************************************
+To add an event:
+    1. Navigate Events/index.html
+    2. Go To All About Calendar Section
+    3. There is an array named calenderEvents.
+    4. Add the event you want to add definately in object format.
+
+#############################################################
+                ------For You------
+
+calendarEvents: [
+                    {
+                        id: 'please add different id every time',
+                        name: "The Event Title",
+                        description: "The Event Description",
+                        date: "Event Date", // you can use date rage if event is multiple days long like ["january/13/2022", "january/15/2022"]
+                        type: "holiday", // holiday, event, birthday, anniversary
+                        everyYear: true // Same event every year (optional) no need to worry
+                    },
+              
+                ]
+
