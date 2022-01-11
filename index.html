@@ -108,12 +108,12 @@
             </div>
             <div class="form-section">
                 <div class="form-box-main">
-                    <form class="contact-form" action="" method="">
-                        <input class="custom-input-dark" type="email" placeholder="Email">
-                        <input class="custom-input-dark" type="text" placeholder="Name">
-                        <textarea class="custom-text-area-dark" name="" id="" cols="30" rows="5"
+                    <form class="contact-form" action="" method="post" autocomplete="off" name="google-sheet">
+                        <input class="custom-input-dark" type="email" name="Email" placeholder="Email">
+                        <input class="custom-input-dark" type="text" name="Name" placeholder="Name">
+                        <textarea class="custom-text-area-dark" name="Query" id="" cols="30" rows="5"
                             placeholder="Write your queries here"></textarea>
-                        <button class="custom-contact-join-btn" type="submit">SUBMIT</button>
+                        <button class="custom-contact-join-btn" type="submit" name="submit">SUBMIT</button>
                     </form>
                 </div>
             </div>
@@ -142,6 +142,18 @@
             }
         });
 </script> -->
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbztaje9lww1oYk_9OGHL9cVegJlqrvmFy1fS6oygA2j2Gk-v20yQOAWnv9w_YKMA04z/exec'
+    const form = document.forms['google-sheet']
+
+    form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => alert("Thanks for Contacting us..! We Will Contact You Soon..."))
+            .catch(error => console.error('Error!', error.message))
+    })
+</script>
+
 <script>
     const preLoader = document.getElementById('cn-loader');
     function loadPage() {
