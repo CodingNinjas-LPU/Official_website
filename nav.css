@@ -98,6 +98,7 @@ body {
   .mobile-nav .logo img {
     width: 45%;
     display: none;
+    margin-bottom: 3px;
   }
   /**********ul.toogle*********/
   .mobile-nav .container-nav ul.toggle {
