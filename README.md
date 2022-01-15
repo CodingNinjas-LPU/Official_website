@@ -8,7 +8,7 @@
 
 
 
-![Followers](https://img.shields.io/github/followers/Techsahead?style=plastic&color=white=FOLLOWERS)
+![Followers](https://img.shields.io/github/followers/CodingNinjas-LPU?style=plastic&color=white=FOLLOWERS)
 ![Stars](https://img.shields.io/github/stars/Techahead?affiliations=OWNER&style=social)
 <img src="https://komarev.com/ghpvc/?username=CodingNinjas-LPU" alt="CodingNinjas" /> 
   
@@ -22,7 +22,7 @@
 </p>
 <h2>💻 About Us</h2>
 
-Our community is an open platform for all students to learn and grow together. At *Coding Ninjas* we believe in the power of knowledge to enhance humanity and make greater impacts. For tech-enthusiast, budding entrepreneurs, designers, and curious learners, Techsahead is here for you. We organize peer to peer learning sessions, engage with people and make sure you learn from the best. To stay updated about the latest trends in technology stay tuned with us.
+Our community is an open platform for all students to learn and grow together. At *Coding Ninjas* we believe in the power of knowledge to enhance humanity and make greater impacts. For tech-enthusiast, budding entrepreneurs, designers, and curious learners, CodingNinjas-LPU is here for you. We organize peer to peer learning sessions, engage with people and make sure you learn from the best. To stay updated about the latest trends in technology stay tuned with us.
 
 <h2>🤩 Perks of Joining Community </h2>
 
