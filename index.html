@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- changes... -->
 
 <head>
     <meta charset="UTF-8">
@@ -17,7 +18,7 @@
         rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="/Loading/loading.css">
-    <title>Coding Ninjas | LPU  💻</title>
+    <title>Coding Ninjas | LPU 💻</title>
 </head>
 
 <body onload="loadPage()">
@@ -53,26 +54,27 @@
             </div>
             <div class="offcanvas offcanvas-start" id="demo">
                 <div class="offcanvas-header">
-                  <h1 class="offcanvas-title">Heading</h1>
-                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" style="background-color: gold;"></button>
+                    <h1 class="offcanvas-title">Heading</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                        style="background-color: gold;"></button>
                 </div>
-                <div class="offcanvas-body"  >
-                  <p>Some text or may be u can add link</p>
-                  <p>Some text or may be u can add link</p>
-                  <p>Some text or may be u can add link</p>
-                  <button class="btn btn-secondary" type="button">A Button</button>
+                <div class="offcanvas-body">
+                    <p>Some text or may be u can add link</p>
+                    <p>Some text or may be u can add link</p>
+                    <p>Some text or may be u can add link</p>
+                    <button class="btn btn-secondary" type="button">A Button</button>
                 </div>
-              </div>
-              
-              <div class="container-fluid mt-3">
+            </div>
+
+            <div class="container-fluid mt-3">
                 <h3>Slidebar</h3>
                 <p>You can add this feature for saving space</p>
                 <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo">
-                  Open Sidebar
+                    Open Sidebar
                 </button>
-              </div>
+            </div>
         </section>
-        </div>
+    </div>
     </div>
 
     <!-- <div class="stats parent-color mb-2 mt-2 py-3">
@@ -123,7 +125,7 @@
         </div>
     </div> -->
 
-   
+
 
     <section id="contact-section">
         <div class="parent-color">
@@ -171,7 +173,7 @@
 
     form.addEventListener('submit', e => {
         e.preventDefault()
-        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        fetch(scriptURL, { method: 'POST', body: new FormData(form) })
             .then(response => alert("Thanks for Contacting us..! We Will Contact You Soon..."))
             .catch(error => console.error('Error!', error.message))
     })
