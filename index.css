@@ -752,3 +752,8 @@ body{
         padding: 0px 10px 0 10px;
     }
 }
+.text-5xl:hover{
+    color: #ED221D;
+    text-decoration: solid;
+}
+

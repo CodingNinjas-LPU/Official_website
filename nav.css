@@ -50,7 +50,7 @@ margin-left: 1.5rem;
     color: #fff;
     /* font-size: 1.5rem; */
     text-decoration: none;
-    font-weight: lighter;
+    font-weight: bold;
 }
 
 .default-nav ul li a:hover {
@@ -233,4 +233,20 @@ margin-left: 1.5rem;
         height: 30px;
     }
     
+}
+.logo:hover{
+    
+}
+
+.btn-circle span :hover {
+ color :silver;
+}
+
+
+/* rotate 360 key for refresh btn */
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg);
+   
+}
 }
