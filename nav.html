@@ -13,9 +13,11 @@
 </head>
 
 <body>
-    <nav class="navigation-menu default-nav">
+    <nav id="navbar" class="navigation-menu default-nav">
         <div class="logo">
-            <a href="/"><img src="img/cn-dark.png" alt="logo" /></a>
+            <a href="/"><img
+                    src="https://res.cloudinary.com/syket-sd/image/upload/v1642227833/cn-lpu/cn-dark_o3k5ur.png"
+                    alt="logo" /></a>
         </div>
         <div class="navbar-list">
             <ul class="default-ul">
@@ -42,7 +44,9 @@
     </nav>
     <nav class="mobile-nav">
         <div class="logo">
-            <a href="/"><img src="img/cn-dark.jfif" alt="logo" /></a>
+            <a href="/"><img
+                    src="https://res.cloudinary.com/syket-sd/image/upload/v1642227833/cn-lpu/cn-dark_o3k5ur.png"
+                    alt="logo" /></a>
         </div>
         <div class="container-nav">
             <ul class="toggle">
@@ -51,7 +55,9 @@
                 <li></li>
             </ul>
             <div class="sidebar">
-                <a href="/"><img src="img/cn-dark.jfif" alt="logo" /></a>
+                <a href="/"><img
+                        src="https://res.cloudinary.com/syket-sd/image/upload/v1642227833/cn-lpu/cn-dark_o3k5ur.png"
+                        alt="logo" /></a>
                 <ul class="menu">
                     <li>
                         <a href="/">Home</a>
@@ -92,6 +98,36 @@
             $(this).toggleClass('active');
             $('.container-nav .sidebar').toggleClass('active');
         })
+        // -------------------------------------------------------------
+
+        $(window).scroll(function () {
+            var scroll = $(window).scrollTop();
+            if (scroll > 100) {
+                $("#navbar").css("background", "#333");
+                $(".default-nav .logo img").css("display", "block");
+            }
+
+            else {
+                $("#navbar").css("background", "none");
+                $(".default-nav .logo img").css("display", "none");
+
+            }
+            // -------------------------------------------------------------
+            if (scroll > 50) {
+                $(".mobile-nav").css("background", "#333");
+                $(".mobile-nav .logo img").css("display", "block");
+
+            }
+
+            else {
+                $(".mobile-nav").css("background", "none");
+                $(".mobile-nav .logo img").css("display", "none");
+            }
+
+
+        })
+
+
     })
 </script>
 
