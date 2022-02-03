@@ -19,18 +19,15 @@ body {
 }
 
 .default-nav {
-  /* max-width: 1280px; */
-
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 1rem 2rem;
-  padding-right: 2.5rem;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 10;
-  transition: all 0.5s ease;
+    align-items: center;
+    padding: 0.8vw 18vw;
+    position: fixed;
+    top: 0;
+    width: 117%;
+    z-index: 10;
+    transition: all 0.5s ease;
+    background-color: #121212;
 }
 
 .default-nav .logo img {
@@ -51,10 +48,10 @@ body {
 }
 
 .default-nav ul li a {
-  color: #fff;
-  /* font-size: 1.5rem; */
-  text-decoration: none;
-  font-weight: lighter;
+  color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: lighter;
+    padding: 1.5vw;
 }
 
 .default-nav ul li a:hover {
@@ -81,18 +78,19 @@ body {
   }
 
   .mobile-nav {
-    margin: auto auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 1rem 2rem;
-    padding-right: 2.5rem;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 10;
-    transition: all 0.5s ease;
-    margin-top: 5px;
+    
+      margin: auto auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 2vw 0vw;
+      padding-right: 10vw;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 10;
+      transition: all 0.5s ease;
+      margin-top: 5px;
   }
 
   .mobile-nav .logo img {
@@ -189,6 +187,8 @@ body {
   .mobile-nav .container-nav .sidebar ul.menu li:hover a {
     /* background: #ff5722; */
     color: #ed221d;
+    transition: all 1s ease-in;
+
   }
 }
 
@@ -241,9 +241,7 @@ body {
   .mobile-nav .container-nav ul.toggle.active li:nth-of-type(1) {
     margin-top: 16px;
   }
-  .mobile-nav .container-nav ul.toggle.active li:nth-of-type(3) {
-    /* margin-bottom: 16px; */
-  }
+  
   .mobile-nav .container-nav ul.active {
     display: block;
     position: relative;
