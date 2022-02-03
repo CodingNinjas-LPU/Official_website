@@ -13,8 +13,7 @@
 input,
 textarea,
 button,
-select,
-a {
+select{
     -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 
@@ -23,6 +22,7 @@ a{
     height: fit-content;
     width: fit-content;
 }
+
 
 body{
     -webkit-tap-highlight-color: transparent;
@@ -54,6 +54,8 @@ body{
 
 .hero-image img{
     width: 90%;
+    height: 32vw;
+    margin-top: 6vw;
 }
 
 .hero-text{
@@ -226,6 +228,7 @@ body{
     outline: none;
     background-color: #941210;
     transition: all .3s ease-in-out;
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.842), 0 6px 20px 0 rgb(255, 255, 255);
 }
 
 .form-box-main:before {
@@ -495,6 +498,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-bottom: 5vw;
 }
 .hero .sub-hero h1{
     /* 5xl */
@@ -507,12 +511,12 @@ body{
     margin-top: 0.25rem;
 }
 .hero .sub-hero .ca-button{
-    padding: 0.25rem;
-    margin-top: 1rem;
-    font-size: 0.875rem;
-    line-height: 1.25rem;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
+      
+    font-size: 1vw;
+   
+    width: 18vw;
+    height: 4vw;
+    border-radius: 1.2vw;
 }
 
 .text-5xl{
@@ -535,6 +539,7 @@ body{
     .hero .sub-hero{
         padding-left: 3rem;
         padding-right: 3rem;
+        height: 55vw;
     }
     .hero .sub-hero h1{
         /* 8xl */
@@ -546,17 +551,7 @@ body{
         font-size: 1.5rem;
         line-height: 2rem;
     }
-    .hero .sub-hero .ca-button{
-        padding: 0.25rem;
-        padding-left: 0.75rem;
-        padding-right: 0.75rem;
-        margin-top: 1rem;
-        font-size: 0.875rem;
-        line-height: 1.25rem;
-        padding-left: 0.5rem;
-        padding-right: 0.5rem;
-        margin-top: 1.5rem;
-    }
+   
 /* } */
 
 /* lg-Tailwind-CSS */
@@ -745,3 +740,21 @@ body{
         padding: 0px 10px 0 10px;
     }
 }
+.social {
+    margin-top: -20vw;
+    position: absolute;
+    margin-left: 10vw;
+    transition: all .5s cubic-bezier(0.2, 0.6, 0.2, 1);
+   
+}
+  .social img{
+    height: 4vw;  
+      padding: 0vw 1vw;
+  }
+  .social img:hover{
+    box-shadow: 0 2px 8px #1ae635;
+    background-color: #1ae635;
+    border-radius: 50vw;
+    transition: all 0.5s ease-in;
+  }
+  
