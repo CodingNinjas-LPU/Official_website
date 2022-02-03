@@ -31,11 +31,12 @@ body {
   width: 100%;
   z-index: 10;
   transition: all 0.5s ease;
+
 }
 
 .default-nav .logo img {
   width: 55%;
-  display: none;
+  /* display: none; */
 }
 
 .default-nav .navbar-list ul {
@@ -109,7 +110,7 @@ body {
     /* position: fixed; */
     z-index: 5;
     /* top: 5%;  right: 5%; */
-    width: 35px;
+    width: 66px;
     height: 25px;
     cursor: pointer;
   }

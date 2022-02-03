@@ -18,14 +18,7 @@ a {
     -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 
-.offcanvas-body{
-    background-color: black;
-}
-.offcanvas-header{
-    background-color: black;
-    padding: 45px;
-    text-align: center;
-}
+
 a{
     height: fit-content;
     width: fit-content;
