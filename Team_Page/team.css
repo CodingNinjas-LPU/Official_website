@@ -18,13 +18,13 @@ ul{
   background-color: #121212;
 }
 
-.team ul li a {
-  color: black;
+/* .team ul li a {
+  color: rgb(0, 0, 0);
   padding-right: 15px;
   -webkit-transition: 0.1s ease-in;
   -o-transition: 0.1s ease-in;
   transition: 0.1s ease-in;
-}
+} */
 
 .team ul li a:hover {
   -webkit-transform: translate3d(0px, -5px, 0px);
@@ -82,3 +82,10 @@ ul{
 
 }
 
+section {
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  background-color: #202020;
+  color: white;
+}
