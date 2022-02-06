@@ -750,14 +750,21 @@ body{
     transition: all .5s cubic-bezier(0.2, 0.6, 0.2, 1);
    
 }
-  .social img{
+.social img{
     height: 4vw;  
       padding: 0vw 1vw;
-  }
-  .social img:hover{
+}
+.social img:hover{
     box-shadow: 0 2px 8px #1ae635;
     background-color: #1ae635;
     border-radius: 50vw;
     transition: all 0.5s ease-in;
-  }
+}
+.footer-visit ul{
+    padding-left: 0;
+}
+a{
+    text-decoration: none;
+}
+
 
