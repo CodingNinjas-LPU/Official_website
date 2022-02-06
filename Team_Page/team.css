@@ -8,9 +8,7 @@ ul{
   margin-bottom: 0px;
 }
 
-#nav-placeholder ul li a{
-  padding-right: 0;
-}
+
 
 .team-executive, .team-creative, .team-marketing{
   background-color: #202020;
@@ -21,7 +19,7 @@ ul{
 }
 
 .team ul li a {
-  color: #8d97ad;
+  color: black;
   padding-right: 15px;
   -webkit-transition: 0.1s ease-in;
   -o-transition: 0.1s ease-in;
