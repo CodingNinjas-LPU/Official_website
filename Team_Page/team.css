@@ -2,7 +2,11 @@
 
 *{
   color: white;
-} 
+}
+
+a{
+  text-decoration: none;
+}
 
 ul{
   margin-bottom: 0px;
