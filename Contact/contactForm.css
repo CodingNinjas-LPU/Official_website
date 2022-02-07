@@ -65,11 +65,12 @@ body{
     justify-content:right;
     align-items: center;
     height: 720px;
+    margin-right: 100px;
 }
 
 .form-box-main{
     background: #121212;
-    min-width: 200%;
+    min-width: 180%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -115,7 +116,7 @@ body{
 .custom-contact-join-btn{
     background: #ED221D;
     outline: none;
-    width: 15%;
+    width: 20%;
     margin: 0.8rem 0;
     border: none;
     border-radius: 30px;
@@ -136,12 +137,12 @@ body{
     position: relative;
     content: "Contact Us";
     background: #313131;
-    font-size: 2rem;
+    font-size: 1.5rem;
     display: flex;
     width: 30%;
     align-items: center;
     justify-content: center;
-    padding: 1rem 4rem;
+    padding: 1rem 1rem;
     border-radius: 1.3rem;
     text-align: center;
     bottom: 30px;
@@ -149,9 +150,14 @@ body{
 }
 
 @media(max-width: 940px){
+    .form-section{
+        justify-content: center;
+        margin-left: 1rem;
+        
+    }
     .form-box-main:before {
         font-size: 2.5rem;
-        padding: 1rem 4rem;
+        padding: 1rem 1rem;
     }
     .custom-contact-join-btn{
         padding: 0.6rem 1rem;
@@ -163,9 +169,14 @@ body{
 }
 
 @media(max-width: 785px){
+    .form-section{
+        justify-content: center;
+        margin-left: 1rem;
+        
+    }
     .form-box-main:before {
         font-size: 2rem;
-        padding: 1rem 4rem;
+        padding: 1rem 1rem;
     }
     .custom-contact-join-btn{
         padding: 0.6rem 0.8rem;
@@ -177,6 +188,11 @@ body{
 }
 
 @media(max-width: 630px){
+    .form-section{
+        justify-content: center;
+        margin-left: 1rem;
+        
+    }
     .form-box-main:before {
         font-size: 1.6rem;
         padding: 1rem 3rem;
@@ -191,6 +207,11 @@ body{
 }
 
 @media(max-width: 502px){
+    .form-section{
+        justify-content: center;
+        margin-left: 1rem;
+        
+    }
     .form-box-main:before {
         font-size: 1.5rem;
         padding: 1rem 2.5rem;
@@ -205,6 +226,11 @@ body{
 }
 
 @media(max-width: 470px){
+    .form-section{
+        justify-content: center;
+        margin-left: 1rem;
+        
+    }
     .form-box-main:before {
         font-size: 1.1rem;
         border-radius: 1.1rem;
@@ -243,7 +269,12 @@ body{
 
 }
 
-@media(max-width: 310px){
+@media(max-width: 390px){
+    .form-section{
+        justify-content: center;
+        margin-left: 1rem;
+        
+    }
     .form-box-main:before {
         font-size: 0.9rem;
         border-radius: 0.9rem;
