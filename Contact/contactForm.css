@@ -12,6 +12,10 @@
     color: #fff;
 }
 
+a{
+  text-decoration: none;
+}
+
 .logo-image{
    width: 46px;
    height: 46px;

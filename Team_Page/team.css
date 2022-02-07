@@ -2,7 +2,11 @@
 
 *{
   color: white;
-} 
+}
+
+a{
+  text-decoration: none;
+}
 
 ul{
   margin-bottom: 0px;
@@ -91,6 +95,7 @@ section {
 }
 
 
+
 @media (min-width: 992px){
 .col-lg-6 {
     flex: 0 0 auto;
@@ -114,3 +119,5 @@ section .container{
 section .container .row .col-lg-4{
   margin-top: 2rem;
 }
+
+
