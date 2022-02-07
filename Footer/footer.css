@@ -56,6 +56,11 @@ color: #fff;
 a:hover{
   color: darkgoldenrod;
 }
+footer ul{
+ 
+  margin: 0;
+  padding: 0;
+}
 ul li{
   list-style: none;
   margin-bottom: 12px;
