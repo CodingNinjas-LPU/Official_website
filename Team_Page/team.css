@@ -89,3 +89,28 @@ section {
   background-color: #202020;
   color: white;
 }
+
+
+@media (min-width: 992px){
+.col-lg-6 {
+    flex: 0 0 auto;
+    width: 50%;
+    margin-top: -9rem;
+}
+}
+@media (min-width: 1200px){
+.h1, h1 {
+    font-size: 2.5rem;
+    margin-top: -3rem;
+}
+.row{
+  margin-top: -3rem;
+}
+}
+
+section .container{
+  margin-top: 2rem;
+}
+section .container .row .col-lg-4{
+  margin-top: 2rem;
+}
