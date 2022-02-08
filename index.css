@@ -104,6 +104,10 @@ a{
   margin-right: auto;
 
 }
+
+.arrow-link{
+  padding-top: 15%;
+}
 .arrow{
     /* position: absolute; */
     /* top: 50%;
@@ -117,7 +121,7 @@ a{
     border-bottom: 5px solid #06A8FF;
     border-right: 5px solid #06A8FF;
     transform: rotate(45deg);
-    margin: -10px;
+    margin-top:  -10px;
     animation: animate 2s infinite;
 }
 .arrow span:nth-child(2){
