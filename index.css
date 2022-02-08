@@ -35,14 +35,27 @@ a{
   text-decoration: none;
 }
 
+.home{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+.col-lg-6{
+  margin: auto;
+}
+
 .none{
     display: none;
 }
 
 /* ---------------imran raj addition---------- */
 .hero-image{
-    width: 45%;
-    margin-left: auto; 
+    width: 90%;
+    margin-left: auto;
 }
 
 .hero-image img{
@@ -63,8 +76,9 @@ a{
 
 
 .hero-text{
-    margin-top: 3rem;
-    width: 50%;
+    /* margin-top: 3rem; */
+    margin-bottom: 3rem;
+    width: 90%;
     z-index: 3;
     display: flex;
     flex-direction: column;
@@ -80,7 +94,7 @@ a{
 .hero-text h1{
 
   color:#009DAE;
-    font-weight: 300;
+  font-weight: 300;
 }
 /* =============arrow animation =============*/
 .hero-text a{
@@ -142,6 +156,9 @@ a{
   .arrow span{
       width: 1rem;
       height: 1rem;
+    }
+    .hero-image{
+      margin: auto;
     }
 }
 /* ================== end of arrow animation ================= */
@@ -589,9 +606,9 @@ a{
     margin-top: 0.25rem;
 }
 .hero .sub-hero .ca-button{
-      
+
     font-size: 1vw;
-   
+
     width: 18vw;
     height: 4vw;
     border-radius: 1.2vw;
@@ -631,7 +648,7 @@ a{
         font-size: 1.5rem;
         line-height: 2rem;
     }
-   
+
 }
 
 /* lg-Tailwind-CSS */
@@ -828,10 +845,10 @@ a{
     position: absolute;
     margin-left: 10vw;
     transition: all .5s cubic-bezier(0.2, 0.6, 0.2, 1);
-   
+
 }
 .social img{
-    height: 4vw;  
+    height: 4vw;
       padding: 0vw 1vw;
 }
 .social img:hover{
@@ -846,5 +863,3 @@ a{
 a{
     text-decoration: none;
 }
-
-
