@@ -29,7 +29,8 @@ a{
 }
 .flex-child-svg {
   flex: 1;
-  margin-left: 10px;
+  margin-right: 35px;
+  margin-top: 60px;
   width:50%;
   float: left;
 
