@@ -11,6 +11,11 @@ a{
 ul{
   margin-bottom: 0px;
 }
+.collapse{
+  margin: 0 2rem;
+  display: inline-block;
+  padding-bottom: 1rem;  
+}
 
 body{
   background-color: #121212;
@@ -18,6 +23,10 @@ body{
 
 .text-p{
   color: #E9DAC1;
+  
+.collapse .navbar-nav .nav-item{
+  margin-right: 1rem;
+}
 
 }
 .team-executive, .team-creative, .team-marketing{

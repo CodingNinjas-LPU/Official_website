@@ -7,6 +7,18 @@ a{
 * {
   color: white;
 }
+
+.collapse{
+  margin: 0 2rem;
+  display: inline-block;
+  padding-top: 1rem;
+  padding-bottom: 1rem;  
+}
+
+.collapse .navbar-nav .nav-item{
+  margin-right: 1rem;
+}
+
 .event-page {
   background-color: #202020;
 }
