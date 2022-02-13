@@ -35,6 +35,8 @@ a{
   text-decoration: none;
 }
 
+
+
 .home{
   width: 100vw;
   height: 100vh;
@@ -160,10 +162,11 @@ a{
   .arrow span{
       width: 1rem;
       height: 1rem;
-    }
-    .hero-image{
+  }
+
+  .hero-image{
       margin: auto;
-    }
+  }
 }
 /* ================== end of arrow animation ================= */
 /* ----------------end of Imran raj addition------------ */
