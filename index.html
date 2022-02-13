@@ -191,6 +191,20 @@
   </script>
   <!-- end of typewriter animation script -->
 
+    <!-- Fetch data from site to google sheet script-->
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbztaje9lww1oYk_9OGHL9cVegJlqrvmFy1fS6oygA2j2Gk-v20yQOAWnv9w_YKMA04z/exec'
+        const form = document.forms['google-sheet']
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => alert("Thanks for Contacting us..! We Will Contact You Soon..."))
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+    <!-- end of data from site to google sheet script -->
+
 <!-- Scripts -->
 
 </body>
