@@ -17,10 +17,18 @@ ul{
   padding-bottom: 1rem;  
 }
 
+body{
+  background-color: #121212;
+}
+
+.text-p{
+  color: #E9DAC1;
+  
 .collapse .navbar-nav .nav-item{
   margin-right: 1rem;
 }
 
+}
 .team-executive, .team-creative, .team-marketing{
   background-color: #202020;
 }
@@ -51,7 +59,7 @@ ul{
     height: 181px;
     justify-content: center;
     padding: 6px;
-    overflow:hidden;   
+    overflow:hidden;
     position:relative;
     display: inline-block;
     align-items: center;
@@ -71,7 +79,7 @@ ul{
     height: 220px;
     justify-content: center;
     padding: 6px;
-    overflow:hidden;   
+    overflow:hidden;
     position:relative;
     display: inline-block;
     align-items: center;
@@ -84,7 +92,7 @@ ul{
     height: 190px;
     justify-content: center;
     padding: 6px;
-    overflow:hidden;   
+    overflow:hidden;
     position:relative;
     display: inline-block;
     align-items: center;
@@ -94,14 +102,10 @@ ul{
 }
 
 section {
-  padding: 20px;
-  margin-bottom: 20px;
-  border-radius: 10px;
+  margin: 2px 0;
+  border-radius: 5px;
   background-color: #202020;
-  color: white;
 }
-
-
 
 @media (min-width: 992px){
 .col-lg-6 {
@@ -121,10 +125,8 @@ section {
 }
 
 section .container{
-  margin-top: 2rem;
+  margin-top: : 2rem;
 }
 section .container .row .col-lg-4{
-  margin-top: 2rem;
+  padding-top: 2rem;
 }
-
-

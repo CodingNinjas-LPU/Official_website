@@ -1,0 +1,35 @@
+a.active{
+  color: #FF6347;
+}
+
+.nav-item{
+  padding: 15px 10px;
+}
+
+.nav-link {
+  /* float: right; */
+  padding-bottom: 0;
+  font-size: 1.2rem;
+  position: relative;
+}
+
+.nav-link:before {
+  content: "";
+  position: absolute;
+  top: 110%;
+  left: 0;
+  width: 0;
+  height: 2px;
+  border-bottom: 2px solid #FF6347;
+  transition: all .3s linear;
+}
+
+.nav-link:hover:before {
+  width: 100%;
+}
+
+@media(max-width: 768px){
+    .nav-item{
+      padding: 3px;
+    }
+}
