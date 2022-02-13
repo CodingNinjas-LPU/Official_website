@@ -16,6 +16,22 @@ body{
   background-color: #121212;
 }
 
+.fas{
+  color: #000;
+}
+
+/* Sticky Button (back to top) */
+#btn-back-to-top {
+  background-color: #fff;
+  border-width:  0px;
+  border-radius: 100%;
+  position: fixed;
+  z-index: 1;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+}
+
 .text-p{
   color: #E9DAC1;
 }
@@ -98,6 +114,10 @@ section {
   background-color: #202020;
 }
 
+section.team-executive{
+  margin-top: 3rem;
+}
+
 @media (min-width: 992px){
 .col-lg-6 {
     flex: 0 0 auto;
@@ -113,6 +133,16 @@ section {
 .row{
   margin-top: -3rem;
 }
+}
+
+@media(max-width: 768px){
+  section{
+    margin-top: 0;
+    padding: 2rem;
+  }
+  section.team-executive{
+    margin-top: 0;
+  }
 }
 
 section .container{
