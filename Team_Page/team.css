@@ -11,8 +11,15 @@ a{
 ul{
   margin-bottom: 0px;
 }
+.collapse{
+  margin: 0 2rem;
+  display: inline-block;
+  padding-bottom: 1rem;  
+}
 
-
+.collapse .navbar-nav .nav-item{
+  margin-right: 1rem;
+}
 
 .team-executive, .team-creative, .team-marketing{
   background-color: #202020;
