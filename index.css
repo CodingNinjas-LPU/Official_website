@@ -279,13 +279,14 @@ a{
     align-items: center;
 }
 
-.form-box-main{
-    background: #121212;
-    min-width: 90%;
+.form-box-main {
+    background: rgb(18, 18, 18);
+    min-width: 38%;
     display: flex;
     flex-direction: column;
     align-items: center;
     border-radius: 20px;
+    margin-left: 45vw;
 }
 
 .contact-form{
@@ -319,17 +320,17 @@ a{
     font-size: 1.1rem;
 }
 
-.custom-contact-join-btn{
+.custom-contact-join-btn {
     background: #ED221D;
     outline: none;
-    width: 15%;
+    width: 39%;
     margin: 0.8rem 0;
     border: none;
-    border-radius: 15px;
-    line-height:1.2rem;
+    border-radius: 12px;
+    line-height: 1.2rem;
     padding: 0.6rem 1rem;
     font-weight: 600;
-    font-size: 1.3rem;
+    font-size: 1rem;
     margin-bottom: 1.8rem;
     cursor: pointer;
 }
@@ -345,9 +346,9 @@ a{
     position: relative;
     content: "Any queries";
     background: #313131;
-    font-size: 2rem;
+    font-size: 1rem;
     display: flex;
-    width: 25%;
+    width: 48%;
     align-items: center;
     justify-content: center;
     padding: 1rem 3rem;
@@ -355,6 +356,23 @@ a{
     text-align: center;
     bottom: 30px;
 }
+@keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 4vw); }
+    100%   { transform: translate(0, -0px); }   
+}
+.ninjalogo{
+    position: absolute;
+    margin-top: -37vw;
+    width: 18vw;
+    height: 24vw;
+    margin-left: 14vw;
+    animation-name: floating;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-duration: 3s;
+}
+
 
 @media (max-width: 1245px) {
     #about-section{
