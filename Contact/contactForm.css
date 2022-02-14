@@ -16,16 +16,16 @@ a{
   text-decoration: none;
 }
 
-.collapse{
+/* .collapse{
     margin: 0 2rem;
     display: inline-block;
     padding-top: 1rem;
-    padding-bottom: 1rem;  
+    padding-bottom: 1rem;
   }
-  
+
   .collapse .navbar-nav .nav-item{
     margin-right: 1rem;
-  }
+  } */
 
 .logo-image{
    width: 46px;
@@ -169,7 +169,7 @@ body{
     .form-section{
         justify-content: center;
         margin-left: 1rem;
-        
+
     }
     .form-box-main:before {
         font-size: 2.5rem;
@@ -188,7 +188,7 @@ body{
     .form-section{
         justify-content: center;
         margin-left: 1rem;
-        
+
     }
     .form-box-main:before {
         font-size: 2rem;
@@ -207,7 +207,7 @@ body{
     .form-section{
         justify-content: center;
         margin-left: 1rem;
-        
+
     }
     .form-box-main:before {
         font-size: 1.6rem;
@@ -226,7 +226,7 @@ body{
     .form-section{
         justify-content: center;
         margin-left: 1rem;
-        
+
     }
     .form-box-main:before {
         font-size: 1.5rem;
@@ -245,7 +245,7 @@ body{
     .form-section{
         justify-content: center;
         margin-left: 1rem;
-        
+
     }
     .form-box-main:before {
         font-size: 1.1rem;
@@ -289,7 +289,7 @@ body{
     .form-section{
         justify-content: center;
         margin-left: 1rem;
-        
+
     }
     .form-box-main:before {
         font-size: 0.9rem;
