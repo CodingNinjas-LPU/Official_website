@@ -38,20 +38,22 @@ ___
 
 ## 🌟 Follow Our Community:
 
-<a href = "https://www.facebook.com/Coding-Ninjas-LPU-105358785328076" target="_blank">
-  <img src="https://img.icons8.com/fluency/32/000000/facebook-new.png">
-</a>
 <a href = "https://www.linkedin.com/company/coding-ninjas-lpu" target="_blank">
-  <img src="https://img.icons8.com/fluent/48/000000/linkedin.png"/>
+  <img src="https://img.icons8.com/color/64/000000/linkedin.png"/>
+</a>
+<a href = "https://www.facebook.com/Coding-Ninjas-LPU-105358785328076" target="_blank">
+  <img src="https://img.icons8.com/color/64/000000/facebook.png"/>
+</a>
 </a>
 <a href = "https://instagram.com/codingninjas.lpu?utm_medium=copy_link" target="_blank">
-  <img src="https://img.icons8.com/fluency/48/000000/instagram-new.png"/>
+  <img src="https://img.icons8.com/fluency/64/000000/instagram-new.png"/>
 </a>
 <!--
 <a href = "#" target="_blank">
-  <img src="https://img.icons8.com/color/48/000000/youtube-play.png"/></a>
+  <img src="https://img.icons8.com/color/64/000000/youtube-play.png"/>
+</a>
 <a href = "#" target="_blank">
-  <img src="https://img.icons8.com/color/50/000000/telegram-app.png"/>
+  <img src="https://img.icons8.com/fluency/64/000000/discord-logo.png"/>
 </a>
 platforms still to be created -->
   
