@@ -78,8 +78,7 @@ a{
 
 
 .hero-text{
-    /* margin-top: 3rem; */
-    margin-bottom: 3rem;
+    margin: auto;
     width: 90%;
     z-index: 3;
     display: flex;
@@ -359,7 +358,7 @@ a{
 @keyframes floating {
     0% { transform: translate(0,  0px); }
     50%  { transform: translate(0, 4vw); }
-    100%   { transform: translate(0, -0px); }   
+    100%   { transform: translate(0, -0px); }
 }
 .ninjalogo{
     position: absolute;
