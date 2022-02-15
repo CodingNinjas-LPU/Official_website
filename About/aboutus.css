@@ -1,3 +1,6 @@
+body{
+  background-color: #202020;
+}
 a{
   text-decoration: none;
 }
@@ -13,25 +16,66 @@ a{
     margin-right: 1rem;
   } */
 
-.parent-color{
-    background-color: #202020;
-}
+  .about-section{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+  }
 
-.about-text h1{
-    color: #fff;
-    padding-top: 5rem;
-}
+  .row{
+    width: 100%
+    --bs-gutter-x: 0;
+  }
 
-.about-text p{
-    color: #F7ECDE;
-    font-size: 1.2rem;
-    padding: 0.3rem 0 3rem 0;
-}
+  .about-heading{
+  	 font: 700 2.8em "Oswald", sans-serif;
+  	 letter-spacing: 0;
+  	 padding: 0.25em 0 0.325em;
+  	 display: block;
+  	 margin: 0 auto;
+  	 /* text-shadow: 0 0 80px rgba(255, 255, 255, .5); */
+  	/* Clip Background Image */
+  	 background: url(https://www.atrafloor.com/app/uploads/2020/05/Swatch_orange-yellow-ombre-pattern-v70s-retro-vinyl-flooring-scaled.jpg) repeat-y;
+  	 -webkit-background-clip: text;
+  	 background-clip: text;
+  	/* Animate Background Image */
+  	 -webkit-text-fill-color: transparent;
+  	 -webkit-animation: aitf 30s linear infinite;
+  	/* Activate hardware acceleration for smoother animations */
+  	 -webkit-transform: translate3d(0, 0, 0);
+  	 -webkit-backface-visibility: hidden;
+  }
+  /* Animate Background Image */
+   @-webkit-keyframes aitf {
+  	 0% {
+  		 background-position: 0% 50%;
+  	}
+  	 100% {
+  		 background-position: 100% 50%;
+  	}
+  }
+
+  .about-text-container{
+    padding: 30px 60px;
+  }
+
+  .about-text{
+    color: #D8D2CB;
+    font-family: sans-serif;
+  }
 
 
-@media (max-width: 1145px) {
-    .about-text p{
-        color: #fff;
-        font-size: 1rem;
-    }
-}
+  @media(max-width: 768px){
+      .about-heading{
+        font-size: 2.5em;
+      }
+      .about-text-container{
+        padding: 10px 30px;
+      }
+      .about-text{
+        font-size: 0.9rem;
+      }
+  }
