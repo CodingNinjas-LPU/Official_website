@@ -202,6 +202,22 @@ a{
 .ca-button:focus{
     outline: none;
 } */
+.float-container {
+    background-color: black;
+    padding: 20px;
+}
+
+.float-child {
+    width: 50%;
+    float: left;
+    padding: 20px;
+    background-color: black;
+
+}
+.abus {
+  height : 500px;
+  width :500px;
+}
 
 .about-section-wrapper{
         background-color: #121212;
@@ -359,7 +375,7 @@ a{
 @keyframes floating {
     0% { transform: translate(0,  0px); }
     50%  { transform: translate(0, 4vw); }
-    100%   { transform: translate(0, -0px); }   
+    100%   { transform: translate(0, -0px); }
 }
 .ninjalogo{
     position: absolute;
