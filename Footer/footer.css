@@ -17,7 +17,7 @@ footer{
   font-size: 13px;
   line-height: 20px;
 }
-.row{
+.footer-section{
   width: 90%;
   margin: auto;
   display: flex;
@@ -57,7 +57,7 @@ a:hover{
   color: darkgoldenrod;
 }
 footer ul{
- 
+
   margin: 0;
   padding: 0;
 }
