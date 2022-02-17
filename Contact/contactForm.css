@@ -86,13 +86,14 @@ body{
 
 .form-box-main{
     background: #121212;
+    border: solid 2px #fff;
     min-width: 180%;
     display: flex;
     flex-direction: column;
     align-items: center;
     border-radius: 30px;
     margin-right: 20px;
-    box-shadow: 1px 1.5px 1.5px 5px #FFCCCB;
+    /* box-shadow: 1px 1.5px 1.5px 5px #FFCCCB; */
 }
 
 .contact-form{
@@ -114,7 +115,7 @@ body{
     border-radius: 20px;
     padding: 0.5rem 1.2rem;
     font-size: 1.3rem;
-    box-shadow:2px 2px 1px 1px #D8D8D8;
+    /* box-shadow:2px 2px 1px 1px #D8D8D8; */
 }
 
 .custom-text-area-dark{
@@ -126,7 +127,7 @@ body{
     border-radius: 20px;
     padding: 0.9rem 1.2rem;
     font-size: 1.3rem;
-    box-shadow:2px 2px 1px 1px #D8D8D8;
+    /* box-shadow:2px 2px 1px 1px #D8D8D8; */
 }
 
 .custom-contact-join-btn{
@@ -150,6 +151,7 @@ body{
 }
 
 .form-box-main:before {
+    border: solid 3px #EE4624;
     position: relative;
     content: "Contact Us";
     background: #313131;
@@ -162,7 +164,7 @@ body{
     border-radius: 1.3rem;
     text-align: center;
     bottom: 30px;
-    box-shadow: 1px 1px 0.5px 3px #FFCCCB;
+    /* box-shadow: 1px 1px 0.5px 3px #FFCCCB; */
 }
 
 @media(max-width: 940px){
