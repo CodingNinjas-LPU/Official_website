@@ -285,7 +285,7 @@ a{
     flex-direction: column;
     align-items: center;
     border-radius: 20px;
-    margin-left: 45vw;
+    margin-left: 5vw;
 }
 
 .contact-form{
@@ -340,6 +340,8 @@ a{
     transition: all .3s ease-in-out;
     box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.842), 0 6px 20px 0 rgb(255, 255, 255);
 }
+
+
 
 .form-box-main:before {
     position: relative;
