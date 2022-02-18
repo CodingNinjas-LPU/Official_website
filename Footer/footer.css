@@ -17,7 +17,7 @@ footer{
   font-size: 13px;
   line-height: 20px;
 }
-.row{
+.footer-section{
   width: 90%;
   margin: auto;
   display: flex;
@@ -57,7 +57,7 @@ a:hover{
   color: darkgoldenrod;
 }
 footer ul{
- 
+
   margin: 0;
   padding: 0;
 }
@@ -98,7 +98,7 @@ hr{
 .underline{
   width: 100%;
   height: 5px;
-  background: #767676;
+  /* background: #767676; */
   border-radius: 3px;
   position: absolute;
   top: 25px;
