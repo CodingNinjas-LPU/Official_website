@@ -46,6 +46,10 @@ a{
   justify-content: center;
 }
 
+.row{
+  --bs-gutter-x: 0;
+}
+
 .col-lg-6{
   margin: auto;
 }
@@ -281,12 +285,12 @@ a{
 
 .form-box-main {
     background: rgb(18, 18, 18);
-    min-width: 38%;
+    width: 90%;
     display: flex;
     flex-direction: column;
     align-items: center;
     border-radius: 20px;
-    margin-left: 5vw;
+    /* margin-left: 5vw; */
 }
 
 .contact-form{
@@ -350,7 +354,7 @@ a{
     background: #313131;
     font-size: 1rem;
     display: flex;
-    width: 48%;
+    /* width: 48%; */
     align-items: center;
     justify-content: center;
     padding: 1rem 3rem;
@@ -364,17 +368,17 @@ a{
     100%   { transform: translate(0, -0px); }
 }
 .ninjalogo{
-    position: absolute;
-    margin-top: -37vw;
-    width: 18vw;
-    height: 24vw;
-    margin-left: 14vw;
+    /* position: absolute; */
+    /* margin-top: -37vw; */
+    /* width: 18vw;
+    height: 24vw; */
+    width: 40%;
+    /* margin-left: 14vw; */
     animation-name: floating;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
     animation-duration: 3s;
 }
-
 
 @media (max-width: 1245px) {
     #about-section{
