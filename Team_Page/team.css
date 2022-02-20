@@ -1,29 +1,29 @@
 @import url(//fonts.googleapis.com/css?family=Montserrat:300,500);
 
-*{
+* {
   color: white;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
-ul{
+ul {
   margin-bottom: 0px;
 }
 
-body{
+body {
   background-color: #121212;
 }
 
-.fas{
+.fas {
   color: #000;
 }
 
 /* Sticky Button (back to top) */
 #btn-back-to-top {
   background-color: #fff;
-  border-width:  0px;
+  border-width: 0px;
   border-radius: 100%;
   position: fixed;
   z-index: 1;
@@ -32,15 +32,18 @@ body{
   display: none;
 }
 
-.text-p{
-  color: #E9DAC1;
+.text-p {
+  color: #e9dac1;
 }
 
-.team-executive, .team-creative, .team-marketing{
+.team-executive,
+.team-creative,
+.team-marketing {
   background-color: #202020;
 }
 
-.team-mentor, .team-event{
+.team-mentor,
+.team-event {
   background-color: #121212;
 }
 
@@ -55,57 +58,55 @@ body{
 .team ul li a:hover {
   -webkit-transform: translate3d(0px, -5px, 0px);
   transform: translate3d(0px, -5px, 0px);
-	color: #316ce8;
+  color: #316ce8;
 }
 
-.head{
+.head {
   color: white;
 }
-.crop{
-    width: 181px;
-    height: 181px;
-    justify-content: center;
-    padding: 6px;
-    overflow:hidden;
-    position:relative;
-    display: inline-block;
-    align-items: center;
-    /* margin-right: 20px;
+.crop {
+  width: 181px;
+  height: 181px;
+  justify-content: center;
+  padding: 6px;
+  overflow: hidden;
+  position: relative;
+  display: inline-block;
+  align-items: center;
+  /* margin-right: 20px;
     margin-left: 20px; */
 }
 
-.center{
+.center {
   /* margin: auto; */
   display: flex;
   justify-content: space-between;
   /* padding: 20px; */
 }
 
-.cropVIP{
+.cropVIP {
   width: 220px;
-    height: 220px;
-    justify-content: center;
-    padding: 6px;
-    overflow:hidden;
-    position:relative;
-    display: inline-block;
-    align-items: center;
-    /* margin-right: 20px;
+  height: 220px;
+  justify-content: center;
+  padding: 6px;
+  overflow: hidden;
+  position: relative;
+  display: inline-block;
+  align-items: center;
+  /* margin-right: 20px;
     margin-left: 20px; */
-
 }
-.cropCA{
+.cropCA {
   width: 190px;
-    height: 190px;
-    justify-content: center;
-    padding: 6px;
-    overflow:hidden;
-    position:relative;
-    display: inline-block;
-    align-items: center;
-    /* margin-right: 20px;
+  height: 190px;
+  justify-content: center;
+  padding: 6px;
+  overflow: hidden;
+  position: relative;
+  display: inline-block;
+  align-items: center;
+  /* margin-right: 20px;
     margin-left: 20px; */
-
 }
 
 section {
@@ -114,40 +115,47 @@ section {
   background-color: #202020;
 }
 
-section.team-executive{
+section.team-executive {
   margin-top: 3rem;
 }
 
-@media (min-width: 992px){
-.col-lg-6 {
+@media (min-width: 992px) {
+  .col-lg-6 {
     flex: 0 0 auto;
     width: 50%;
     margin-top: -9rem;
+  }
 }
-}
-@media (min-width: 1200px){
-.h1, h1 {
+@media (min-width: 1200px) {
+  .h1,
+  h1 {
     font-size: 2.5rem;
     margin-top: -3rem;
-}
-.row{
-  margin-top: -3rem;
-}
+  }
+  .row {
+    margin-top: -3rem;
+  }
 }
 
-@media(max-width: 768px){
-  section{
+@media (max-width: 768px) {
+  section {
     margin-top: 0;
     padding: 2rem;
   }
-  section.team-executive{
+  section.team-executive {
     margin-top: 0;
   }
 }
 
-section .container{
-  margin-top: : 2rem;
+section .container {
+  margin-top: 2rem;
 }
-section .container .row .col-lg-4{
+section .container .row .col-lg-4 {
   padding-top: 2rem;
+}
+
+@media (max-width: 768px) {
+  .prisha {
+    margin-top: -2rem;
+  }
 }
