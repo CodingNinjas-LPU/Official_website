@@ -17,18 +17,15 @@ a{
   } */
 
   .about-section{
-    width: 100vw;
+    /* width: 100vw; */
     height: 100vh;
     display: flex;
     flex-direction: column;
     text-align: center;
     justify-content: center;
+    overflow: hidden;
   }
 
-  .row{
-    width: 100%
-    --bs-gutter-x: 0;
-  }
 
   .about-heading{
   	 font: 700 2.8em "Oswald", sans-serif;
